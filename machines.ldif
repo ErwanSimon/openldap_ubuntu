@@ -1,0 +1,4965 @@
+version: 1
+dn: ou=machines,dc=example,dc=org
+objectClass: top
+objectClass: organizationalUnit
+ou: machines
+
+dn: cn=JG898A,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: JG898A
+description: EQ_Croce, HPE 5700 32XGT SFP+ Switch
+gecos: CN86GN50JQ
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.8 (switch HPE5700 JG898A)
+macAddress: EC:9B:8B:49:AE:4B
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=1JSN2M1,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: 1JSN2M1
+description: LAPTOP 1JSN2M1 (T.Hamidouche) EQ_Gilson  | 134.59.51.144
+gecos: 1JSN2M1
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.144 (laptop 1JSN2M1)
+macAddress: 5c:26:0a:38:55:c9
+uid: grp_gilson-aottaviani
+uidNumber: 804
+
+dn: cn=6KC9XN1,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: 6KC9XN1
+description: LAPTOP 6R4FJF9 (L.Genet) EQ_Genet | 134.59.51.104
+gecos: 6KC9XN1
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.104 (laptop 6KC9XN1)
+macAddress: 5C:26:0A:25:E9:CC
+uid: grp_croce-ocroce
+uidNumber: 102
+
+dn: cn=B38N81J,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: B38N81J
+description: Laptop CRRBIO0366 Dell EQ_Croce  | (134.59.51.104)
+gecos: B38N81J
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.104 (laptop B38N81J)
+macAddress: 00:0f:1f:c4:39:79
+uid: grp_croce-ocroce
+uidNumber: 101
+
+dn: cn=chu5e-72,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-72
+description: PC Dell (A.Mongis/C.M Vivier) EQ_Pedeutour | 134.59.58.72
+gecos: s-tag
+gidNumber: 1403
+homeDirectory: /
+host: 134.59.58.72 (chu5e-72)
+uid: grp_pedeutour-cmvivier
+uidNumber: 1404
+
+dn: cn=chu5e-73,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-73
+description: PC Dell (A.Mongis) EQ_Pedeutour | 134.59.58.73
+gecos: s-tag
+gidNumber: 1403
+homeDirectory: /
+host: 134.59.58.73 (chu5e-73)
+uid: grp_pedeutour-amongis
+uidNumber: 1403
+
+dn: cn=chu5e-74,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-74
+description: PC Dell EQ_Pedeutour | 134.59.58.74
+gecos: s-tag
+gidNumber: 1403
+homeDirectory: /
+host: 134.59.58.74 (chu5e-74)
+uid: grp_pedeutour-vkubiniek
+uidNumber: 1403
+
+dn: cn=lacass01,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass01
+description: EQ_Pages, Appareil commun ZYME UGENIUS | 134.59.58.01
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.01 (lacass01)
+macAddress: 00:1F:F2:04:5F:80
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass02,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass02
+description: EQ_Pages, PC HP (C.Onesto) | 134.59.58.02
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.02 (lacass02)
+uid: grp_pages-conesto
+uidNumber: 1208
+
+dn: cn=lacass10,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass10
+description: PC Dell (J.Pouyssegur) EQ_Pages | 134.59.58.10
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.10 (lacass10)
+macAddress: 58:55:CA:24:0D:49
+uid: grp_pages-jpouyssegur
+uidNumber: 1202
+
+dn: cn=lacass13,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass13
+description: Macintosh (P.Lenormand) EQ_Pages | 134.59.58.13
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.13 (lacass13)
+macAddress: 38:C9:86:52:56:D2
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass20,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass20
+description: Macintosh JP690 (commun) EQ_Pages | 134.59.58.20
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.20 (lacass20)
+macAddress: 3C:D9:2B:64:EE:74
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass21,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass21
+description: Laptop Macintosh (P. Diogop Ndiaye) EQ_Pages | 134.59.58.21
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.21 (lacass21)
+macAddress: 3C:07:54:6A:10:97
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass24,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass24
+description: PC Asustek WILLIAN MEIRA EQ_Pages | 134.59.58.24
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.24 (lacass24)
+macAddress: 78:24:AF:E3:FA:7C
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass26,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass26
+description: PC DELL (R.Busca) EQ_Pages | 134.59.58.26
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.26 (lacass26)
+macAddress: 00:13:72:15:38:8A
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass31,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass31
+description: PC HP Plesu EQ_Pages | 134.59.58.31
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.31 (lacass31)
+macAddress: 48:BA:4E:54:94:63
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass35,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass35
+description: Macintosh (J.Roux) EQ_Hofman | 134.59.58.35
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.35 (lacass35)
+macAddress: A8:20:66:53:6A:0A
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass45,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass45
+description: PC DELL C-GX745-45 labo EQ_Pages  | 134.59.58.45
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.45 (lacass45)
+macAddress: 00:18:8B:26:E6:66
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass47,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass47
+description: PC Dell (S.Martial) EQ_Pages |  | 134.59.58.47
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.47 (lacass47)
+macAddress: 00:00:00:00:00:00
+uid: grp_pages-smartial
+uidNumber: 1203
+
+dn: cn=lacass48,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass48
+description: PC Dell (J.Parola) EQ_Pages | 134.59.58.48
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.48  (lacass48)
+macAddress: 00:00:00:00:00:00
+uid: grp_pages-jparola
+uidNumber: 1204
+
+dn: cn=lacass52,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass52
+description: PC Dell (J.Pouyssegur) EQ_Pages  | 134.59.58.52
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.52  (lacass52)
+uid: grp_pages-jpouyssegur
+uidNumber: 1202
+
+dn: cn=lacass54,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass54
+description: Macintosh1 EQ_Bulavin  | 134.59.58.54
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.54 (lacass54)
+macAddress: 68:5B:35:91:91:C7
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass55,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass55
+description: PC Dell (D.Bulavin) EQ_Bulavin | 134.59.58.55
+gecos: s-tag
+gidNumber: 200
+homeDirectory: /
+host: 134.59.58.55 (lacass55)
+uid: grp_bulavin-dbulavin
+uidNumber: 201
+
+dn: cn=lacass56,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass56
+description: Macintosh3 EQ_Bulavin | 134.59.58.56
+gecos: s-tag
+gidNumber: 200
+homeDirectory: /
+host: 134.59.58.56 (lacass56)
+macAddress: 68:5B:35:B9:EE:B6
+uid: grp_bulavin-aemelyanov
+uidNumber: 203
+
+dn: cn=lacass57,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass57
+description: PC Dell (L.Grosse) EQ_Bulavin | 134.59.58.57
+gecos: s-tag
+gidNumber: 200
+homeDirectory: /
+host: 134.59.58.57 (lacass57)
+uid: grp_bulavin-lgrosse
+uidNumber: 203
+
+dn: cn=lacass58,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass58
+description: Macintosh4 EQ_Bulavin | 134.59.58.58
+gecos: s-tag
+gidNumber: 200
+homeDirectory: /
+host: 134.59.58.58 (lacass58)
+macAddress: 68:5B:35:AC:9F:F1
+uid: grp_bulavin-dfilipponi
+uidNumber: 202
+
+dn: cn=lacass59,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass59
+description: PC DELL OPTIXE2 (machine InfiniteF200 pro) EQ_Bulavin | 134.59.58.59
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.59 (lacass59)
+macAddress: F8:B1:56:D1:2F:A2
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass62,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass62
+description: Macintosh2 EQ_Bulavin | 134.59.58.62
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.62 (lacass62)
+macAddress: 0C:4D:E9:9F:05:DD
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass64,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass64
+description: PC Dell (C.Molina) EQ_Bulavin | 134.59.58.64
+gecos: s-tag
+gidNumber: 200
+homeDirectory: /
+host: 134.59.58.64 (lacass64)
+uid: grp_bulavin-cmolina
+uidNumber: 204
+
+dn: cn=lacass70,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass70
+description: PC commun EQ_Pages | 134.59.58.70
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.70 (lacass70)
+macAddress: 48:65:EE:14:2F:EC
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass79,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass79
+description: HP-SCAN  EQ_Pages | 134.59.58.79
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.79 (lacass79)
+macAddress: A8:60:B6:19:77:CC
+uid: rbusca
+uidNumber: 101
+
+dn: cn=lacass82,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass82
+description: PC DELL C-OPT755-82 (Odyssey) EQ_Pages  | 134.59.58.82
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.82 (lacass82)
+macAddress: 00:21:9B:85:F8:74
+uid: smartial
+uidNumber: 101
+
+dn: cn=lacass87,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass87
+description: PC Dell (R.Busca) EQ_Pages  | 134.59.58.87
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.87 (lacass87)
+uid: grp_pages-rbusca
+uidNumber: 1204
+
+dn: cn=lacass89,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass89
+description: PC Stepone-CAL DCHVZVL1 qPCR EQ_Pages  | 134.59.58.89
+gecos: DCHVZVL1
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.89 (lacass89)
+macAddress: 00:24:9B:17:28:95
+uid: smartial
+uidNumber: 101
+
+dn: cn=lacass93,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass93
+description: FREDERIC-HP EQ_Pages  | 134.59.58.93
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.93 (lacass93)
+macAddress: 00:00:00:00:00:00
+uid: smartial
+uidNumber: 101
+
+dn: cn=chu5e-112,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-112
+description: PC Dell CHU 5EME tour Pasteur EQ_Pedeutour | 134.59.58.112
+gecos: chu5e-112 (grp_pedeutour-tfabas)
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.58.112 (chu5e-112)
+macAddress: 64:00:6A:87:B8:0B
+uid: grp_pedeutour-tfabas
+uidNumber: 1405
+
+dn: cn=chu5e-116,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-116
+description: PC Dell iks-1297 IKAROS CHU 5EME tour Pasteur EQ_Pedeutour | 134.59.58.116
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.116 (chu5e-116)
+macAddress: B8:CA:3A:A6:F5:6E
+uid: esimon
+uidNumber: 101
+
+dn: cn=chu5e-117,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-117
+description: PC Dell 5eme etage tour Pasteur  EQ_Pedeutour | 134.59.58.117
+gecos: s-tag
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.58.117 (chu5e-117)
+uid: grp_pedeutour-fpedeutour
+uidNumber: 1401
+
+dn: cn=chu5e-118,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-118
+description: PC Dell ISS-0494 CHU 5EME tour Pasteur EQ_Pedeutour | 134.59.58.118
+gecos: ISS118
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.118 (chu5e-118)
+macAddress: 34:17:EB:C6:5F:C6
+uid: grp_pedeutour-tfabas
+uidNumber: 1405
+
+dn: cn=chu5e-119,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-119
+description: PC Dell MF-0372 MetaSystem CHU 5EME tour Pasteur EQ_Pedeutour | 134.59.58.119
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.119 (chu5e-119)
+macAddress: B8:CA:3A:9D:58:96
+uid: grp_pedeutour-tfabas
+uidNumber: 1405
+
+dn: cn=chu5e-122,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-122
+description: PC Dell PxiIRCANCAL-PC Pixi CHU 5EME tour Pasteur EQ_Pedeutour | 134.59.58.122
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.122 (chu5e-122)
+macAddress: 5C:F9:DD:E6:6B:02
+uid: esimon
+uidNumber: 101
+
+dn: cn=chu5e-127,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-127
+description: PC Dell dellt1600-PC CHU commun 5EME tour Pasteur EQ_Pedeutour | 134.59.58.127
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.127 (chu5e-127)
+macAddress: D4:BE:D9:A6:32:71
+uid: grp_pedeutour-tfabas
+uidNumber: 1405
+
+dn: cn=chu5e-139,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: chu5e-139
+description: PC Dell (L.Bianchini) EQ_Pedeutour | 134.59.58.139
+gecos: s-tag
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.58.139 (chu5e-139)
+uid: grp_pedeutour-lbianchini
+uidNumber: 1402
+
+dn: cn=lacass101,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass101
+description: PC Dell (G.Pages) EQ_Pages | 134.59.58.101
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.101 (lacass101)
+macAddress: 00:50:B6:DF:A5:B1
+uid: grp_pages-gpages
+uidNumber: 1201
+
+dn: cn=lacass102,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass102
+description: LABOHOFMAN-PC  EQ_Hofman | 134.59.58.102
+gecos: s-tag
+gidNumber: 200
+homeDirectory: /
+host: 134.59.58.102 (lacass102)
+uid: grp_hofman-bmograbi
+uidNumber: 902
+
+dn: cn=lacass104,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass104
+description: PC Dell (P.Lenormand) EQ_Pages | 134.59.58.104
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.104 (lacass104)
+uid: grp_pages-plenormand
+uidNumber: 1204
+
+dn: cn=lacass112,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass112
+description: PC secretariat (Audrey-Annabelle) 5eme EQ_Pedeutour | 134.59.58.112
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.112 (lacass112)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass121,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass121
+description: PC Dell (Samy Smara) EQ_Pages | 134.59.58.121
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.58.121 (lacass121)
+uid: grp_rottinger-ssmara
+uidNumber: 1506
+
+dn: cn=lacass122,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass122
+description: EQ_Pages | 134.59.58.122
+gecos: PXIIRCANCAL-PC | EQ_Pages
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.122 (lacass122)
+macAddress: 00:00:00:00:00:00
+uid: rbusca
+uidNumber: 102
+
+dn: cn=lacass123,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass123
+description: EQ_Pages Mac (Brahimi-horn) | 134.59.58.123
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.123 (lacass123)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass125,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass125
+description: PC Asustek ou laptop Mac(Giuliano) | 134.59.58.125
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.125 (lacass125)
+macAddress: B8:CA:3A:9D:58:96
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass126,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass126
+description: PC Dell (M.Dufies) EQ_Pages | 134.59.58.126
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.126 (lacass126)
+uid: grp_pages-mdufies
+uidNumber: 1203
+
+dn: cn=lacass127,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass127
+description: PC Dell (M.Dufies) EQ_Pages | 134.59.58.127
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.127 (lacass127)
+uid: grp_pages-mdufies
+uidNumber: 1203
+
+dn: cn=lacass131,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass131
+description: PC Dell (C.Petit) EQ_Pages | 134.59.58.131
+gecos: DV7JL82
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.131 (lacass131)
+macAddress: 00:00:00:00:00:00
+uid: grp_pages-cpetit
+uidNumber: 1205
+
+dn: cn=lacass133,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass133
+description: PC Dell (R.Busca) EQ_Pages | 134.59.58.133
+gecos: s-tag
+gidNumber: 1200
+homeDirectory: /
+host: 134.59.58.133 (lacass133)
+macAddress: 08:2E:5F:15:3E:FF
+uid: grp_pages-rbusca
+uidNumber: 1205
+
+dn: cn=lacass145,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass145
+description: PC Dell (T.Juhel) EQ_Hofman | 134.59.58.145
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.145 (lacass145)
+macAddress: C8:1F:66:27:C3:F7
+uid: grp_hofman-tjuhel
+uidNumber: 903
+
+dn: cn=lacass190,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass190
+description: PC Dell (P.Brest) EQ_Hofman | 134.59.58.190
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.190 (lacass190)
+uid: grp_hofman-pbrest
+uidNumber: 904
+
+dn: cn=lacass191,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass191
+description: PC Dell (B.Mograbi) EQ_Hofman | 134.59.58.191
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.191 (lacass191)
+macAddress: D4:BE:D9:67:AB:33
+uid: grp_hofman-bmograbi
+uidNumber: 902
+
+dn: cn=lacass192,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass192
+description: PC portable (Josephine) EQ_Hofman | 134.59.58.192
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.192 (lacass192)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass193,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass193
+description: PC Dell (V.Vouret) EQ_Hofman | 134.59.58.193
+gecos: DESKTOP-TGCR957
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.193 (lacass193)
+uid: grp_hofman-vvouret
+uidNumber: 905
+
+dn: cn=lacass194,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass194
+description: PC Dell (L.Pereira) EQ_Hofman | 134.59.58.194
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.194 (lacass194)
+uid: grp_hofman-lpereira
+uidNumber: 906
+
+dn: cn=lacass195,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass195
+description: PC Dell (T.Juhel) EQ_Hofman | 134.59.58.195
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.195 (lacass195)
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass196,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass196
+description: Laptop Mac (P.Brest) EQ_Hofman | 134.59.58.196
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.196 (lacass196)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass197,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass197
+description: PC Dell (B.Romeo) EQ_Hofman | 134.59.58.197
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.197 (lacass197)
+macAddress: 00:00:00:00:00:00
+uid: grp_hofman-bromeo;grp_hofman-igrosjean
+uidNumber: 903
+
+dn: cn=lacass201,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass201
+description: PC Dell (N.Yazbeck/Mograbi) EQ_Hofman | 134.59.58.201
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.201 (lacass201)
+macAddress: 00:00:00:00:00:00
+uid: grp_hofman-nyazbeck
+uidNumber: 904
+
+dn: cn=lacass202,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass202
+description: PC Dell (P.Hofman) EQ_Hofman | 134.59.58.202
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.202 (lacass202)
+uid: grp_hofman-phofman
+uidNumber: 901
+
+dn: cn=lacass204,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass204
+description: PC Dell (B.Romeo) EQ_Hofman | 134.59.58.204
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.204 (lacass204)
+uid: grp_hofman-bromeo;grp_hofman-igrosjean
+uidNumber: 904
+
+dn: cn=lacass205,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass205
+description: PC Dell (M.Meyer) EQ_Hofman | 134.59.58.205
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.205 (lacass205)
+macAddress: 18:66:DA:43:65:B9
+uid: grp_hofman-mmeyer
+uidNumber: 907
+
+dn: cn=lacass206,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass206
+description: PC Dell (L.Douguet/signetti) EQ_Hofman | 134.59.58.206
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.206 (lacass206)
+macAddress: C8:1F:66:27:C3:EC
+uid: grp_hofman-ldouguet
+uidNumber: 906
+
+dn: cn=lacass208,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass208
+description: PC portable (J.Roux) EQ_Hofman (attention, declaree comme ircan208 dans le DNS) | 134.59.58.208
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.208 (lacass208)
+macAddress: 40:6C:8F:49:07:5B
+uid: grp_hofman-jroux
+uidNumber: 909
+
+dn: cn=lacass209,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass209
+description: PC fixe (J.Roux) EQ_Hofman | 134.59.58.209
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.209 (lacass209)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass226,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass226
+description: PC HP LydiaThon (S. Janho Dit Hreich/Mograbi) EQ_Hofman | 134.59.58.226
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.226 (lacass226)
+macAddress: D4:85:64:99:0F:D6
+uid: grp_hofman-ssanho_dit_hreich
+uidNumber: 910
+
+dn: cn=lacass227,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass227
+description: NASLAC01 nas Synology DS1513+(P.Brest/J.Roux) EQ_Hofman | 134.59.58.227
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.227 (lacass227)
+macAddress: 00:11:32:1C:C5:8B
+uid: esimon
+uidNumber: 101
+
+dn: cn=lacass229,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass229
+description: PC Dell (L.Douguet) EQ_Hofman | 134.59.58.229
+gecos: s-tag
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.229 (lacass229)
+uid: grp_hofman-ldouguet
+uidNumber: 906
+
+dn: cn=lacass254,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lacass254
+description: Gateway gw-58.unice.fr
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.254 (lacass254)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=pemav-130,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: ieee802Device
+objectClass: posixAccount
+objectClass: top
+cn: pemav-130
+description: pemav-130 prise numero 8 (134.59.51.130)
+gidNumber: 500
+homeDirectory: /
+uid: grp_ferreira-aamiel
+uidNumber: 502
+
+dn: cn=pemav-143,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: ieee802Device
+objectClass: posixAccount
+objectClass: top
+cn: pemav-143
+description: pemav-143 prise numero 11 (134.59.51.143)
+gidNumber: 500
+homeDirectory: /
+uid: grp_ferreira-aamiel
+uidNumber: 502
+
+dn: cn=pasteur-51,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur-51
+description: PC Ircan (Brigitte Poderini)
+gecos: pc5151.unice.fr
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.51 (pasteur-51)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-51
+uidNumber: 705
+
+dn: cn=pasteur-64,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur-64
+description: ircan64.unice.fr (model MacBookPro 12,MacBook-Pro-5,Nomachine,Mac OS X 10.14.1) uuid=7cfdec8f-93d0-4b77-b4bc-fb0615a1fcb5, McBookAir de Emmanuelle
+gecos: pc5164.unice.fr
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.64 (pasteur-64)
+macAddress: 68:5b:35:a3:1e:aa
+uid: grp_paquis-egenin
+uidNumber: 1304
+
+dn: cn=pasteur-65,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur-65
+description: PC Ircan ircan65.unice.fr (Dropbox/Lexmark CX510/Lexmark CS310dn)
+gecos: ircan65.unice.fr
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.65 (pasteur-65)
+macAddress: 00:0e:c6:ce:15:b3
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=lp-lacass06,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass06
+description: imprimante Samsung 5eme EQ_Pedeutour (TCP port 9100)  | 134.59.58.06
+gecos: lp-lacass06 (grp_pedeutour-amongis)
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.58.06 (lp-lacass06)
+macAddress: 00:00:00:00:00:00
+uid: grp_pedeutour-amongis
+uidNumber: 1404
+
+dn: cn=lp-lacass34,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass34
+description: imprimante Lexmark E260dn | 134.59.58.34
+gecos: 72LKWM7
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.34 (lp-lacass06)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-lacass50,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass50
+description: imprimante commune | 134.59.58.50
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.50  (lp-lacass50)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-lacass91,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass91
+description: imprimante Brother | 134.59.58.91
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.91  (lp-lacass91)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-lacass94,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass94
+description: imprimante DELL | 134.59.58.94
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.94  (lp-lacass94)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur8e-1,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-1
+description: Macintosh (Sakshi KHAIWAL) EQ_Liti | 134.59.51.1
+gecos: s-tag
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.2 (pasteur8e-2)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-skhaiwal
+uidNumber: 1004
+
+dn: cn=pasteur8e-2,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-2
+description: Macintosh (A.Llored) EQ_Liti | 134.59.51.2
+gecos: s-tag
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.2 (pasteur8e-2)
+macAddress: 40:6C:8F:48:A3:0B
+uid: grp_liti-allored
+uidNumber: 1003
+
+dn: cn=pasteur8e-3,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-3
+description: Macintosh (G.Liti)  EQ_Liti | 134.59.51.3
+gecos: s-tag
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.3 (pasteur8e-3)
+macAddress: 68:5B:35:9C:FB:78
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-4,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-4
+description: Macintosh (J-X. Yue)  EQ_Liti | 134.59.51.4
+gecos: pasteur8e-4 (grp_liti-jyue)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.4 (pasteur8e-4)
+macAddress: 38:C9:86:0F:9D:E7
+uid: grp_liti-jyue
+uidNumber: 1005
+
+dn: cn=pasteur8e-5,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-5
+description: LAPTOP (M.DANGIOLO)  EQ_Liti | 134.59.51.5
+gecos: pasteur8e-5 (grp_liti-gliti)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.5 (pasteur8e-5)
+macAddress: A0:1D:48:6B:42:19
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-6,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-6
+description: LAPTOP Macintosh (M.DECHIARA) EQ_Liti | 134.59.51.6
+gecos: pasteur8e-6 (grp_liti-gliti)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.6 (pasteur8e-6)
+macAddress: 00:F7:6F:6E:6C:D8
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-7,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-7
+description: PC lecteur de plaque EQ_Liti | 134.59.51.7
+gecos: pasteur8e-7 (grp_liti-gliti)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.7 (pasteur8e-7)
+macAddress: 34:17:EB:AA:60:C5
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-8,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-8
+description: A.Ottaviani EQ_Gilson  | 134.59.51.8
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.8 (pasteur8e-8)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-aottaviani
+uidNumber: 804
+
+dn: cn=pasteur8e-9,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-9
+description: PC Dell (B.Barre) EQ_Liti | 134.59.51.9
+gecos: pasteur8e-9 (grp_liti-bbarre)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.9 (pasteur8e-9)
+macAddress: 54:53:ed:b5:38:ba
+uid: grp_liti-bbarre
+uidNumber: 1002
+
+dn: cn=pasteur9e-8,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-8
+description: EQ_Liti | smart-UPS SRT 5000 type DLRT5KRMXLI (baie hulk) | 134.59.51.8
+gecos: apc0D7A89 (sn: AS1825172107)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.8 (pasteur9e-8)
+macAddress: 28:29:86:0D:7A:89
+uid: grp_liti-ltattini
+uidNumber: 1008
+
+dn: cn=lp-lacass199,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass199
+description: imprimante HP laserjet M203dw | 134.59.58.199
+gecos: NPI3DAB0D
+gidNumber: 100
+homeDirectory: /
+host: 134.59.58.91  (lp-lacass91)
+macAddress: 30:e1:71:3d:ab:0d
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-lacass207,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-lacass207
+description: imprimante HP Laserjet M203dw algeco  EQ_Hofman | 134.59.58.207
+gecos: NPI3D9BD5
+gidNumber: 900
+homeDirectory: /
+host: 134.59.58.207  (lp-lacass207)
+macAddress: 30:e1:71:3d:9b:d5
+uid: grp_hofman_vvouret
+uidNumber: 905
+
+dn: cn=lp-pasteur86,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur86
+description:: aW1wcmltYW50ZSBscC1sYnBnODYg
+gecos: SEC30CDA73C624F
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.86 (lp-pasteur86)
+macAddress: 30:CD:A7:3C:62:4F
+uid: grp_genet-nfedou
+uidNumber: 703
+
+dn: cn=pasteur2e-75,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur2e-75
+description: LAPTOP (T.Magnaldo) EQ Magnaldo
+gecos: pasteur2e-75 (grp_magnaldo-tmagnaldo)
+gidNumber: 1100
+homeDirectory: /
+host: 134.59.51.75 (pasteur2e-75)
+macAddress: A4:5D:36:5B:98:F8
+uid: grp_magnaldo-tmagnaldo
+uidNumber: 1101
+
+dn: cn=pasteur2e-76,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur2e-76
+description: laptop Magnaldo1 ircan76.unice.fr (Margot Muller) EQ Magnaldo
+gecos: pasteur2e-76 (grp_magnaldo-mmuller)
+gidNumber: 1100
+homeDirectory: /
+host: 134.59.51.76 (pasteur2e-76)
+macAddress: 00:00:00:00:00:00
+uid: grp_magnaldo-mmuller
+uidNumber: 1104
+
+dn: cn=pasteur5e-11,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-11
+description: Macintosh (Ryan McMinds) EQ_Gilson | 134.59.51.11
+gecos: pasteur5e-11 (grp_gilson-rmcminds)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.11 (pasteur5e-11)
+macAddress: a8:20:66:33:79:3b
+uid: grp_gislon-rmcminds
+uidNumber: 812
+
+dn: cn=pasteur5e-37,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-37
+description: PC Neoprep PLT Genomique
+gecos:: cy10YWcg
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.37 (pasteur5e-37)
+macAddress: 00:0B:AB:9B:05:77
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-47,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-47
+description: PC Dell (A.Mongis/Bianchini) EQ Pedeutour
+gecos: s-tag ircan5147
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.51.47 (pasteur5e-47)
+macAddress: 50:9A:4C:2B:A3:F4
+uid: grp_pedeutour-amongis
+uidNumber: 1404
+
+dn: cn=pasteur5e-48,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-48
+description: PC DELL Windows7 (C.Gillardo) EQ_Genet | 134.59.51.48
+gecos: DESKTOP-0RPJTUO (openport445)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.48 (pasteur5e-48)
+macAddress: 50:9A:4C:1E:44:C6
+uid: grp_genet-cgillardo
+uidNumber: 703
+
+dn: cn=pasteur5e-52,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-52
+description: PC SEAHORSE PLT CYTOMED
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.52 (pasteur5e-52)
+macAddress: 70:71:BC:AB:F7:B1
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur5e-53,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-53
+description: EQ_Croce, PC Dell PRECISIONTOWER3620 (M.Pousse) | 134.59.51.53
+gecos: DNSMSM2
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.53 (pasteur5e-53)
+macAddress: D8:9E:F3:17:89:EE
+uid: grp_croce-mpousse
+uidNumber: 105
+
+dn: cn=pasteur5e-54,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-54
+description: EQ_Croce PC Dell  | 134.59.51.54
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.54 (pasteur5e-54)
+macAddress: 64:00:6A:75:0C:7B
+uid: grp_croce-jargentin
+uidNumber: 103
+
+dn: cn=pasteur5e-57,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-57
+description: PC MINIONSEQ PLT GENOMED
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.57 (pasteur5e-57)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-58,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-58
+description: PC NEXTSEQ PLT GENOMED
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.58 (pasteur5e-58)
+macAddress: 00:60:E0:60:9C:C9
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-62,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-62
+description: EQ_Croce, PC Dell (B.Meyer) | 134.59.51.62
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.62 (pasteur5e-62)
+macAddress: 18:66:DA:03:74:10
+uid: grp_croce-bmeyer
+uidNumber: 103
+
+dn: cn=pasteur5e-63,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-63
+description: PC Dell (B.Meyer) EQ_Croce | 134.59.51.63
+gecos: pasteur5e-63 (grp_croce-bmeyer)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.63 (pasteur5e-63)
+macAddress: 00:00:00:00:00:00
+uid: grp_croce-bmeyer
+uidNumber: 103
+
+dn: cn=pasteur5e-79,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-79
+description: PC Dell PLT CytoMed
+gecos: pasteur5e-79 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.79 (pasteur5e-79)
+macAddress: B8:CA:3A:B0:B2:F1
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-80,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-80
+description: PC Dell PLT CytoMed
+gecos: pasteur5e-80 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.80 (pasteur5e-80)
+macAddress: D8:9E:F3:02:B9:1A
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-81,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-81
+description: PC Dell PLT CytoMed
+gecos: pasteur5e-81 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.81 (pasteur5e-81)
+macAddress: 00:13:3B:0F:E1:8A
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-82,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-82
+description: SERVEUR Dell IONTORRENT PLT GENOMED
+gecos: pasteur5e-82 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.82 (pasteur5e-82)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-83,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-83
+description: PC Dell (R.Grattery) EQ Pedeutour (ancienne @mac : 00:25:64:b8:dd:cf)
+gecos: pasteur5e-83 (grp_pedeutour-rgrattery)
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.51.83 (pasteur5e-83)
+macAddress: 80:CE:62:F1:3A:56
+uid: grp_pedeutour-rgrattery
+uidNumber: 1406
+
+dn: cn=pasteur5e-98,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-98
+description: pc licor odyssey (M-J Giraud-Panis) PLT GenoMed | 134.59.51.98
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.98 (pasteur5e-98)
+macAddress: 78:ac:c0:c1:e8:e8
+uid: grp_gilson-mgiraud-panis
+uidNumber: 809
+
+dn: cn=pasteur7e-40,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-40
+description: [EQ_Rottinger] Macintosh EQ Rottinger
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.40 (pasteur7e-40)
+macAddress: 0C:4D:E9:D1:DB:62
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=pasteur7e-41,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-41
+description: [EQ_Rottinger] Macintosh EQ Rottinger
+gecos: pasteur7e-41 (grp_rottinger-erottinger)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.41 (pasteur7e-41)
+macAddress: 38:C9:86:3F:A8:58
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=pasteur7e-42,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-42
+description: [EQ_Rottinger] Macintosh EQ Rottinger
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.42 (pasteur7e-42)
+macAddress: AC:87:A3:0A:3E:56
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=pasteur7e-43,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-43
+description: [EQ_Rottinger] Macintosh EQ Rottinger
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.43 (pasteur7e-43)
+macAddress: 00:00:00:00:00:00
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=pasteur7e-67,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-67
+description: [EQ_Rottinger] Macintosh (ER-Lab0003-Microscopy)
+gecos: pasteur7e-67 (grp_rottinger-erottinger)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.67 (pasteur7e-67)
+macAddress: 68:5b:35:d4:16:de
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=pasteur7e-68,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-68
+description: [EQ_Rottinger] PC DELL (K.Nedoncelle) EQ Rottinger
+gecos: pasteur7e-68 (grp_rottinger-hjohnston)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.68 (pasteur7e-68)
+macAddress: 98:90:96:a7:6d:39
+uid: grp_rottinger-hjohnston
+uidNumber: 1503
+
+dn: cn=pasteur7e-69,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-69
+description: laptop EQ_Rottinger
+gecos: (pasteur7e-69) (grp_rottinger-hjohnston)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.69 (pasteur7e-69)
+macAddress: 00:00:00:00:00:00
+uid: grp_rottinger-hjohnston
+uidNumber: 1504
+
+dn: cn=pasteur7e-70,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-70
+description: laptop Johnston EQ_Rottinger
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.70 (pasteur7e-70)
+macAddress: 00:00:00:00:00:00
+uid: grp_rottinger-hjohnston
+uidNumber: 1503
+
+dn: cn=pasteur7e-71,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-71
+description: Mac fixe labo EQ_Rottinger | 134.59.51.71
+gecos: pasteur7e-71 (grp_rottinger-erottinger)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.71 (pasteur7e-71)
+macAddress: 68:5B:35:AD:25:F9
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=pasteur7e-72,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-72
+description: laptop  Warner EQ_Rottinger | 134.59.51.72
+gecos: pasteur7e-72 (grp_rottinger-jwarner)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.72 (pasteur7e-72)
+macAddress: 00:21:b7:a5:9e:56
+uid: grp_rottinger-jwarner
+uidNumber: 1504
+
+dn: cn=pasteur7e-94,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-94
+description: PC (Barbara Porro) EQ_Rottinger | 134.59.51.94
+gecos: ircan94.unice.fr
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.94 (pasteur-94)
+macAddress: d0:17:c2:10:3d:47
+uid: grp_rottinger-bporro
+uidNumber: 1505
+
+dn: cn=pasteur8e-10,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-10
+description: PC Dell (Matteo De Chiara) EQ_Liti | 134.59.51.10
+gecos: pasteur8e-10 (grp_liti-mdechiara)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.10 (pasteur8e-10)
+macAddress: A8:20:66:57:DC:16
+uid: grp_liti-mdechiara
+uidNumber: 1002
+
+dn: cn=pasteur8e-12,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-12
+description: Macintosh (Jing Li) EQ_Liti | 134.59.51.12
+gecos: pasteur8e-12 (grp_liti-jli)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.12 (pasteur8e-12)
+macAddress: 3C:07:54:60:64:A5
+uid: grp_liti-jli
+uidNumber: 1004
+
+dn: cn=pasteur8e-13,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-13
+description: PC (Emanuela Repetto) EQ_Liti | 134.59.51.13
+gecos: pasteur8e-13 (grp_liti-erepetto)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.13 (pasteur8e-13)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-erepetto
+uidNumber: 1004
+
+dn: cn=pasteur8e-14,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-14
+description: Mac (L.Tattini) EQ_Liti | 134.59.51.14
+gecos: pasteur8e-14 (grp_liti-ltattini)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.14 (pasteur8e-14)
+macAddress: A8:60:B6:14:1C:E7
+uid: grp_liti-ltattini
+uidNumber: 1003
+
+dn: cn=pasteur8e-15,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-15
+description: PC (Simone Mozzachiodi) EQ_Liti | 134.59.51.15
+gecos: pasteur8e-15 (grp_liti-smozzachiodi)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.15 (pasteur8e-15)
+macAddress: 00:00:00:00:00
+uid: grp_liti-ltattini
+uidNumber: 1004
+
+dn: cn=pasteur8e-16,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-16
+description: PC (Sylvester Holt/ex Nicolo)  EQ_Liti | 134.59.51.16
+gecos: pasteur8e-16 (grp_liti-gliti)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.16 (pasteur8e-16)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-18,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-18
+description: PC Linux (Nicolo Tellini)  EQ_Liti | 134.59.51.18
+gecos: pasteur8e-18 (grp_liti-gliti)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.18 (pasteur8e-16)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-19,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-19
+description: PC Dell (A.Ottaviani)  EQ_Gilson| 134.59.51.19
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.19 (pasteur8e-19)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-aottaviani
+uidNumber: 804
+
+dn: cn=pasteur8e-49,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-49
+description: macbook Martin Rey-Millet EQ_Gilson | 134.59.51.49
+gecos: s-tag dell
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.49 (pasteur8e-49)
+macAddress: 00:00:00:00:00:00
+uid: grp_shkreli-cpons
+uidNumber: 1702
+
+dn: cn=pasteur8e-55,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-55
+description: PC Dell (Ludmyla Lotoska) EQ_Gilson | 134.59.51.55
+gecos: s-tag 8eme etage labo Gilson
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.55 (pasteur8e-55)
+macAddress: 00:24:E8:3C:7D:C7
+uid: grp_gilson-llototska
+uidNumber: 808
+
+dn: cn=pasteur8e-63,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-63
+description: LAPTOP MAC (J-X YUE) EQ_LITI  | 134.59.51.63
+gecos: s-tag
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.63 (pasteur8e-63)
+macAddress: 68:5B:35:A3:1E:AA
+uid: grp_liti-jyue
+uidNumber: 1005
+
+dn: cn=pasteur8e-74,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-74
+description: Mac Liti2 EQ_Liti | 134.59.51.74
+gecos: s-tag
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.74 (pasteur8e-74)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-77,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-77
+description: PC DELL ircan77.unice.fr (C.Iltis/Aaron BERMUDEZ) EQ_GILSON | 134.59.51.77
+gecos: pasteur8e-77 (pasteur8e-77)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.77 (pasteur8e-77)
+macAddress: 5C:26:0A:26:6D:76
+uid: grp_gilson-abermudez
+uidNumber: 802
+
+dn: cn=pasteur8e-78,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-78
+description: laptop (B.Barre/Loreau) EQ Liti
+gecos: pasteur8e-78 (grp_liti-bbarre)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.78 (pasteur8e-78)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-bbarre
+uidNumber: 1002
+
+dn: cn=pasteur8e-89,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-89
+description: PC nanoscope PLT PICMI
+gecos: pasteur8e-89 (grp_gilson-spisano)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.89 (pasteur8e-89)
+macAddress: 00:03:2d:18:c8:d6
+uid: grp_gilson-spisano
+uidNumber: 802
+
+dn: cn=pasteur8e-91,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-91
+description: mac (j.robin) EQ Gilson
+gecos: pasteur8e-91 (grp_gilson-egilson)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.91 (pasteur8e-91)
+macAddress: c8:2a:14:5b:56:89
+uid: grp_gilson-egilson
+uidNumber: 801
+
+dn: cn=pasteur8e-92,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-92
+description: EGMacPros-MacBook-Pro EQ_Gilson | 134.59.51.92
+gecos: pasteur8e-92 (grp_gilson-egilson)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.92 (pasteur8e-92)
+uid: grp_gilson-egilson
+uidNumber: 801
+
+dn: cn=pasteur8e-93,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-93
+description: PC Dell (J.Cherfils) EQ_Gilson | 134.59.51.93
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.93 (pasteur8e-93)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-jrobin
+uidNumber: 807
+
+dn: cn=pasteur8e-96,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-96
+description: PC Dell  EQ Gilson
+gecos: pasteur8e-96 (PICMI_sbauwens)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.96 (pasteur8e-96)
+macAddress: 00:00:00:00:00:00
+uid: PICMI_sbauwens
+uidNumber: 40003
+
+dn: cn=pasteur8e-99,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-99
+description: PC Dell EQ_Gilson | 134.59.51.99
+gecos: pasteur8e-99 (grp_gilson-reid)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.99 (pasteur8e-99)
+macAddress: 48:4d:7e:ae:1d:63
+uid: grp_gilson-reid
+uidNumber: 811
+
+dn: cn=pasteur9e-17,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-17
+description: Liti_Lab_NAS (L.Tattini) EQ_Liti | 134.59.51.17
+gecos: 1760PKN304100 pasteur9e-17 (grp_liti-ltattini)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.17 (pasteur8e-17)
+macAddress: 00:11:32:76:ED:A1
+uid: grp_liti-ltattini
+uidNumber: 1008
+
+dn: cn=pasteur9e-20,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-20
+description: PC (Dominici) EQ Gaggioli
+gecos: s-tag
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.20 (pasteur9e-20)
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-21,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-21
+description: PC Dell (joan pau) EQ Gaggioli
+gecos: s-tag
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.21 (pasteur9e-21)
+macAddress: 58:EF:68:7D:70:6B
+uid: grp_gaggioli-skuzet
+uidNumber: 604
+
+dn: cn=pasteur9e-22,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-22
+description: LAPTOP Dell (I.Bourget) EQ Gaggioli
+gecos: s-tag pc5122
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.22 (pasteur9e-22)
+macAddress: AC:22:0B:0C:5E:F1
+uid: grp_gaggioli-ibourget
+uidNumber: 603
+
+dn: cn=pasteur9e-23,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-23
+description: macbook JENOVAI EQ Gaggioli
+gecos: s-tag pc5123
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.23 (pasteur9e-23)
+macAddress:: IDM4OmM5Ojg2OjUzOmQwOjJl
+uid: grp_gaggioli-ibourget
+uidNumber: 603
+
+dn: cn=pasteur9e-24,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-24
+description: PC (ALBRENGUES) EQ Gaggioli
+gecos: s-tag pc5124
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.24 (pasteur9e-24)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-ibourget
+uidNumber: 603
+
+dn: cn=pasteur9e-25,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-25
+description: laptop T.Bertero EQ Gaggioli
+gecos:: cy10YWcg
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.25 (pasteur9e-25)
+macAddress: d8:d3:85:93:07:01
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-26,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-26
+description: Macintosh imac27 modele A1419 C.Gaggioli EQ Gaggioli
+gecos: s-tag
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.26 (pasteur9e-26)
+macAddress: 78:7B:8A:BE:E1:8D
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-27,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-27
+description: PC imagerie (C.Gaggioli) EQ Gaggioli
+gecos:: IHMtdGFn
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.27 (pasteur9e-27)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-28,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-28
+description: PC labo(C.Gaggioli) EQ Gaggioli
+gecos: C02VP0CBJ1GJ
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.28 (pasteur9e-28)
+macAddress: D8:D3:85:93:07:01
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-29,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-29
+description: PC Zanna EQ Gaggioli
+gecos: pasteur9e-29 (grp_gaggioli-cgaggioli)
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.29 (pasteur9e-29)
+macAddress: A0:B3:CC:51:46:7C
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-30,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-30
+description: NAS 5130 nas5130.unice.fr EQ Gaggioli
+gecos: 17A0PHN443903 (pasteur9e-30)
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.30 (pasteur9e-30 grp_gaggioli-cgaggioli)
+macAddress: 00:11:32:81:AA:16
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-31,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-31
+description: IDRAC DELL PowerEdge640 colossus idrac-31.unice.fr
+gecos: IDRAC-4R2P2S2
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.31 (pasteur9e-31)
+macAddress: 4c:d9:8f:04:3f:da
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur9e-32,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-32
+description: serveur DELL colossus.unice.fr PowerEdge R640 ircan-32.unice.fr
+gecos: 4R2P2S2
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.32 (pasteur9e-32)
+macAddress: e4:43:4b:18:00:34
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur9e-33,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-33
+description: IDRAC serveur DELL PowerEdge R940 hulk | EQ_Liti | 134.59.51.33
+gecos: IDRAC-502W2S2
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.33 (pasteur9e-33)
+macAddress: 50:9a:4c:9e:94:23
+uid: grp_liti-ltattini
+uidNumber: 1008
+
+dn: cn=pasteur9e-34,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-34
+description: serveur DELL PowerEdge R940 hulk | EQ_Liti | 134.59.51.34
+gecos: 502W2S2
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.34 (pasteur9e-34)
+macAddress: E4:43:4B:17:FA:C8
+uid: grp_liti-ltattini
+uidNumber: 1008
+
+dn: cn=pasteur9e-35,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-35
+description: PC portable 10etage salle5 EQ Gaggioli
+gecos:: cy10YWcg
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.35 (pasteur9e-35)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=pasteur9e-49,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-49
+description: Scanner EPSON-4990 EQ_Shkreli | 134.59.51.49
+gecos: s-tag dell
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.49 (pasteur9e-49)
+macAddress: 00:00:00:00:00:00
+uid: grp_shkreli-cpons
+uidNumber: 1702
+
+dn: cn=pasteur9e-50,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-50
+description: PC Dell (P.Lopez) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.50 (pasteur9e-50)
+macAddress: BC:AE:C5:2A:50:56
+uid: grp_saccani-plopez
+uidNumber: 1603
+
+dn: cn=pasteur9e-59,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-59
+description: PC Dell (Margot Muller) EQ (Magnaldo)/Gaggioli
+gecos: s-tag
+gidNumber: 1100
+homeDirectory: /
+host: 134.59.51.59 (pasteur9e-59)
+macAddress: 00:00:00:00:00:00
+uid: grp_magnaldo-mmuller
+uidNumber: 1104
+
+dn: cn=pasteur9e-75,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-75
+description: carte reseau onduleur baie Hulk
+gecos: pasteur9e-75 (grp_liti-ltattini)
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.75 (pasteur9e-75)
+macAddress: 00:00:00:00:00:00
+uid: grp_liti-ltattini
+uidNumber: 1008
+
+dn: cn=pasteur9e-84,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-84
+description: PC Dell Windows7? (D.Mercurio) EQ_Genet | 134.59.51.84
+gecos: port445
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.84 (pasteur9e-84)
+macAddress: d4:be:d9:15:83:2e
+uid: grp_genet-dmercurio
+uidNumber: 704
+
+dn: cn=pasteur9e-85,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-85
+description: laptop (S.Kuzet/Salinas) EQ Gaggioli
+gecos: pasteur9e-85 (grp_gaggioli-skuzet)
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.85 (pasteur9e-85)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-skuzet
+uidNumber: 604
+
+dn: cn=pasteur9e-87,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-87
+description: laptop ircan87.unice.fr (N.Fedou/collet) EQ_Genet
+gecos: pasteur9e-87 (grp_genet-nfedou)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.87 (pasteur9e-87)
+macAddress: 48:0F:CF:27:13:23
+uid: grp_genet-nfedou
+uidNumber: 703
+
+dn: cn=pasteur9e-88,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-88
+description: serveur Mac Scaraffaggio EQ Gaggioli
+gecos: scaraffaggio (pasteur9e-88 grp_gaggioli-cgaggioli)
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.88 (pasteur9e-88)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-cgaggioli
+uidNumber: 601
+
+dn: cn=IDRAC-4R2P2S2,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: IDRAC-4R2P2S2
+description: EQ_Croce, Idrac Colossus | 134.59.51.31
+gecos: 4R2P2S2 (9eme)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.31 (IDRAC-4R2P2S2)
+macAddress: 4c:d9:8f:04:3f:da
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=IDRAC-502W2S2,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: IDRAC-502W2S2
+description: EQ_Croce, IDRAC Poweredge R940 Hulk | 134.59.51.33
+gecos: IDRAC-502W2S2 (9eme etage)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.33 (IDRAC-502W2S2)
+macAddress: 50:9a:4c:9e:94:23
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=IDRAC-5C16LZ1,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: IDRAC-5C16LZ1
+description: EQ_Croce, Idrac wolverine | 134.59.51.223
+gecos: IDRAC-5C16LZ1 (9eme)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.223 (IDRAC-5C16LZ1)
+macAddress: F0:1F:AF:E0:41:98
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=IDRAC-60HBB5J,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: IDRAC-60HBB5J
+description: EQ_Croce, Idrac professorx | 134.59.51.245
+gecos: 60HBB5J; IDRAC-60HBB5J (RDC)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.245 (IDRAC-60HBB5J)
+macAddress: D4:AE:52:81:B1:D4
+uid: grp_croce-bmeyer
+uidNumber: 102
+
+dn: cn=IDRAC-73S9RG2,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: IDRAC-73S9RG2
+description: EQ_Croce, Idrac serveur web ircan.unice.fr | 134.59.51.38
+gecos: 73S9RG2 (RDC)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.38 (IDRAC-73S9RG2)
+macAddress: 84:7B:EB:D6:2B:AE
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=IDRAC-BD0FSG2,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: IDRAC-BD0FSG2
+description: EQ_Croce, IDRAC MAGNETO | 134.59.51.45
+gecos: BD0FSG2 (RDC)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.45 (IDRAC-BD0FSG2)
+macAddress: 18:FB:7B:A5:9D:01
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=lp-pasteur113,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur113
+description: imprimante lp-lbpg113 HP5300
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.113 (lp-pasteur113)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-pasteur129,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur129
+description: imprimante HP CM1415fn color MFP EQ_Genet | 134.59.51.129
+gecos: lp-pasteur129 (grp_genet-nfedou)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.129 (lp-pasteur129)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-nfedou
+uidNumber: 703
+
+dn: cn=lp-pasteur137,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur137
+description: imprimante lp-lbpg05 (HP CB526A)
+gecos: NPIA9A131
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.137 (lp-pasteur137)
+macAddress: 68:B5:99:A9:A1:31
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-pasteur139,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur139
+description: imprimante OKI impoki.unice.fr OKI-MC363-FEF449 (Y.Gache) EQ Magnaldo 2eme etage
+gecos: AK74000106;lp-pasteur139 (grp_magnaldo-ygache)
+gidNumber: 1100
+homeDirectory: /
+host: 134.59.51.139 (lp-pasteur139)
+macAddress: 00:25:36:FE:F4:49
+uid: grp_magnaldo-ygache
+uidNumber: 1102
+
+dn: cn=pasteur10e-35,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: ieee802Device
+objectClass: posixAccount
+objectClass: top
+cn: pasteur10e-35
+gidNumber: 1300
+homeDirectory: /
+uid: grp_paquis_flespinasse
+uidNumber: 1305
+
+dn: cn=pasteur10e-46,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-46
+description: laptop (Serena/Berg) EQ PAQUIS
+gecos:: cy10YWcg
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.46 (pasteur10e-46)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-vpaquis
+uidNumber: 1301
+
+dn: cn=pasteur10e-60,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-60
+description: PC EQ Feral
+gecos: s-tag
+gidNumber: 400
+homeDirectory: /
+host: 134.59.51.60 (pasteur10e-60)
+macAddress: 64:00:6A:5C:64:6F
+uid: grp_feral-cferal
+uidNumber: 401
+
+dn: cn=pasteur2e-116,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur2e-116
+description: MacbookPro (T.Magnaldo) EQ Magnaldo
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.116 (pasteur2e-116)
+macAddress: 68:5B:35:B1:78:A9
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur2e-117,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur2e-117
+description: laptop Dell (S.Scarzello) EQ_Magnaldo
+gecos: s-tag
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.117 (pasteur2e-117)
+macAddress: 00:1D:09:2F:15:1F
+uid: grp_genet-sscarzello
+uidNumber: 703
+
+dn: cn=pasteur2e-122,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur2e-122
+description: PC Dell EQ Magnaldo
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.122 (pasteur2e-122)
+macAddress: 18:66:DA:03:76:60
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur2e-123,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur2e-123
+description: PC Dell (Y.Gache) EQ Magnaldo
+gecos: s-tag
+gidNumber: 1100
+homeDirectory: /
+host: 134.59.51.123 (pasteur2e-123)
+macAddress: 00:00:00:00:00:00
+uid: grp_magnaldo-ygache
+uidNumber: 1102
+
+dn: cn=pasteur5e-104,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-104
+description: PC portable Dell (C.Gillardo) IRCAN 6KC9XN1 avec wifi EQ_Genet | 134.59.51.104
+gecos: FJ7ZT3J pasteur5e-104 (grp_genet-clangueneur)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.104 (pasteur5e-104)
+uid: grp_genet-clangueneur
+uidNumber: 702
+
+dn: cn=pasteur5e-114,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-114
+description: EQ_Croce, PC Dell (Fredricks Nindo) | 134.59.51.114
+gecos: s-tag dell
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.114 (pasteur5e-114)
+macAddress: 64:00:6A:8F:74:34
+uid: grp_croce-fnindo
+uidNumber: 104
+
+dn: cn=pasteur5e-117,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-117
+description: PC Dell FusionSolo PLT_GenoMed
+gecos: s-tag
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.117 (pasteur5e-117)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-sscarzello
+uidNumber: 703
+
+dn: cn=pasteur5e-119,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-119
+description: PLT_GenoMed, PC lecteur de plaque Spectrostar nano
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.119 (pasteur5e-119)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-121,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-121
+description: PLT_GenoMed, PC HP compaq 8200 (C.Baudoin)
+gecos: BXZL8T2
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.121 (pasteur5e-121)
+macAddress: D8:D3:85:91:BC:E5
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-122,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-122
+description: PC microscopie PLT PICMI
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.122 (pasteur5e-122)
+macAddress: 18:66:DA:03:76:60
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur5e-201,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-201
+description: PLT_GenoMed, PC STEPONE-1
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.201 (pasteur5e-201)
+macAddress: 28:10:7B:9F:29:F6
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-202,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-202
+description: PLT_GenoMed, PC TRISTAR LB941
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.202 (pasteur5e-202)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-203,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-203
+description: PC C7900 PCR
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.203 (pasteur5e-203)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-204,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-204
+description: PC C7500 PCR
+gecos: s-tag
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.204 (pasteur5e-204)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-205,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-205
+description: PC DELL (stepone-2) PLT GenoMed
+gecos: pasteur5e-205 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.205 (pasteur5e-205)
+macAddress: 00:0A:F7:68:4C:60
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-206,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-206
+description: PC DELL (IMARIS) PLT PICMI (ancienne @mac F8:B1:56:AB:C8:7B)
+gecos: pasteur5e-206 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.206 (pasteur5e-206)
+macAddress: F8:B1:56:AB:C7:FF
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-207,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-207
+description: STATION METAVISION PLT PICMI
+gecos: cn83807 pasteur5e-207 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.207 (pasteur5e-207)
+macAddress: 00:19:0F:1F:79:37
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-208,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-208
+description: PC HP Z220 PLT PICMI
+gecos: pasteur5e-208 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.208 (pasteur5e-208)
+macAddress: 88:51:FB:5F:48:36
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-209,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-209
+description: PC METAMORPH ANALYSE PLT PICMI
+gecos: pasteur5e-209 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.209 (pasteur5e-209)
+macAddress: 00:00:00:00:00:00
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-210,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-210
+description: PC Fujitsu Rename-Esprimo (confocal) PLT PICMI (ancienne @mac : 00:00:5A:75:E2:54) -> changer parun PC HP?
+gecos: pasteur5e-210 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.210 (pasteur5e-210)
+macAddress: 18:60:24:9C:40:04
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-211,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-211
+description: PC DELL Windows7 (S.Scarzello) EQ_Genet | 134.59.51.211
+gecos: pasteur5e-211 (grp_genet-sscarzello)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.211 (pasteur5e-211)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-sscarzello
+uidNumber: 703
+
+dn: cn=pasteur5e-212,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-212
+description: EQ_Croce, PC Dell Optiplex 9020 (E.Simon)  | 134.59.51.212
+gecos: 9M61422 (pasteur5e-212) grp_croce-esimon
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.212 (pasteur5e-212)
+macAddress: 34:17:EB:A7:B3:9C
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=pasteur5e-213,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-213
+description: station Dell Precision EQ_Croce | 134.59.51.213
+gecos: pasteur5e-213 (grp_croce-ocroce)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.213 (pasteur5e-213)
+macAddress: 98:90:96:C6:3C:56
+uid: grp_croce-ocroce
+uidNumber: 101
+
+dn: cn=pasteur5e-214,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-214
+description: PC Dell (L.Cervera) PLT CytoMed
+gecos: pasteur5e-214 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.214 (pasteur5e-214)
+macAddress: 6C:62:6D:00:7C:17
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-215,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-215
+description: NAS Picmi| PLT PICMI
+gecos: 1590MIN701003; pasteur5e-215 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.215 (pasteur5e-215)
+macAddress: 00:11:32:4C:91:9B
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-216,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-216
+description: PC Facs Aria PLT CytoMed
+gecos: pasteur5e-216 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.216 (pasteur5e-216)
+macAddress: 68:05:CA:08:65:0A
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-217,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-217
+description: PC DELL ISS-0771 (MetaSystem) PLT PICMI
+gecos: pasteur5e-217 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.217 (pasteur5e-217)
+macAddress: A4:BA:DB:F0:10:11
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-218,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-218
+description: PC HP PICMI-HP PLT PICMI
+gecos: pasteur5e-218 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.218 (pasteur5e-218)
+macAddress: 08:2E:5F:0E:BE:27
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-219,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-219
+description: Station HP Z820 (microscope HD) PLT PICMI
+gecos: pasteur5e-219 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.219 (pasteur5e-219)
+macAddress: D8:9D:67:C6:1E:0F
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-221,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-221
+description: Macintosh Calibur PLT CytoMed
+gecos: pasteur5e-221 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.221 (pasteur5e-221)
+macAddress: 00:23:32:2E:92:94
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-222,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-222
+description: PC microscope Axivert 200M PLT PICMI
+gecos: pasteur5e-222 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.222 (pasteur5e-222)
+macAddress: B8:CA:3A:B1:02:F9
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-225,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-225
+description: PC DELL Cytogenetique (Rouge) PLT PICMI
+gecos: pasteur5e-225 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.225 (pasteur5e-225)
+macAddress: BC:30:5B:D5:21:EE
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-227,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-227
+description: PC BIOANALYZER PLT GENOMED
+gecos: pasteur5e-227 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.227 (pasteur5e-227)
+macAddress: 00:23:24:1A:81:33
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-228,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-228
+description: PC TYPHOON FLA9000 PLT GENOMED
+gecos: pasteur5e-228 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.228 (pasteur5e-228)
+macAddress: 00:1B:21:7D:88:17
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-229,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-229
+description: PC HP LUMINOMETRE PLT GENOMED
+gecos: pasteur5e-229 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.229 (pasteur5e-229)
+macAddress: 6C:62:6D:00:7C:4E
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur5e-239,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-239
+description: PC FACS CANTO PLT CYTOMED
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.239 (pasteur5e-239)
+macAddress: 00:08:02:28:40:44
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=pasteur5e-240,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-240
+description: PC Dell (C.Langueneur) EQ_Genet | 134.59.51.240
+gecos: pasteur5e-240 (grp_genet-clangueneur)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.240 (pasteur5e-240)
+macAddress: 6C:3B:E5:0B:7C:7A
+uid: grp_genet-clangueneur
+uidNumber: 702
+
+dn: cn=pasteur5e-241,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-241
+description: station analyse Metavision
+gecos: pasteur5e-241 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.241 (pasteur5e-241)
+macAddress: 00:1E:C9:51:FC:9E
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur5e-243,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-243
+description: nas NASIRCAN01 EQ SHKRELI
+gecos: A5GAN01276; pasteur5e-243 (grp_shkreli-mshkreli)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.243 (pasteur5e-243)
+macAddress: 00:11:32:07:25:4F
+uid: grp_shkreli-mshkreli
+uidNumber: 1701
+
+dn: cn=pasteur5e-244,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-244
+description: LAPTOP DELL (L.Genet) EQ_Genet | 134.59.51.244
+gecos: s-tag
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.244 (pasteur5e-244)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-lgenet
+uidNumber: 701
+
+dn: cn=pasteur5e-246,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-246
+description: switch Netgear GS716Tv3 PLT CytoMed | 134.59.51.246
+gecos: 8C3BADB5F866
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.246 (pasteur5e-246)
+macAddress: 8C:3B:AD:B5:F8:66
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=pasteur5e-250,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-250
+description: PC DELL (L.Genet) EQ_Genet | 134.59.51.250
+gecos: s-tag
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.250 (pasteur5e-250)
+macAddress: 6C:3B:E5:16:CB:0B
+uid: grp_genet-lgenet
+uidNumber: 701
+
+dn: cn=pasteur5e-251,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur5e-251
+description: LAPTOP LENOVO QX200 PLT GENOMED
+gecos: pasteur5e-251 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.251 (pasteur5e-251)
+macAddress: 00:00:00:00:00:00
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=pasteur7e-135,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-135
+description: Macintosh MGF EQ_Ferreira
+gecos: s-tag
+gidNumber: 500
+homeDirectory: /
+host: 134.59.51.135 (pasteur7e-135)
+macAddress: 00:00:00:00:00:00
+uid: grp_ferreira-mferreira
+uidNumber: 501
+
+dn: cn=pasteur7e-191,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-191
+description: PC (M.El-Mai) EQ_Ferreira
+gecos: s-tag
+gidNumber: 500
+homeDirectory: /
+host: 134.59.51.191 (pasteur7e-191)
+macAddress: 00:00:00:00:00:00
+uid: grp_ferreira-melmai
+uidNumber: 502
+
+dn: cn=pasteur7e-193,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-193
+description: Mac EQ_Rottinger
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.193 (pasteur7e-193)
+macAddress: 10:DD:B1:B3:23:02
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur7e-194,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-194
+description: EQ_Rottinger, PC Dell (V.Carlin,N.Garroujou)
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.194 (pasteur7e-194)
+macAddress: 6C:3B:E5:0B:A2:70
+uid: grp_rottinger-vcarlin
+uidNumber: 1507
+
+dn: cn=pasteur7e-195,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-195
+description: EQ_Rottinger, Macintosh (Nematostella2013)
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.195 (pasteur7e-195)
+macAddress: 10:DD:B1:AC:57:CB
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur7e-196,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-196
+description: EQ_Rottinger, Macintosh (ER-LAB004)
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.196 (pasteur7e-196)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur7e-197,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-197
+description: EQ_Rottinger, laptop Macintosh
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.197 (pasteur7e-197)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur7e-198,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-198
+description: Macintosh (M.Ferreira) EQ Rottinger
+gecos: s-tag
+gidNumber: 500
+homeDirectory: /
+host: 134.59.51.198 (pasteur7e-198)
+macAddress: 00:00:00:00:00:00
+uid: grp_ferreira-mferreira
+uidNumber: 501
+
+dn: cn=pasteur7e-199,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur7e-199
+description: laptop Aldine EQ_Rottinger
+gecos: pasteur7e-199 (grp_rottinger-aamiel)
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.199 (pasteur7e-199)
+macAddress: 98:90:96:CD:CA:BF
+uid: grp_rottinger-aamiel
+uidNumber: 1502
+
+dn: cn=pasteur8e-101,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-101
+description: PC Dell (S.Pisano) PLT PICMI | 134.59.51.101
+gecos: pasteur8e-101 (grp_gilson-spisano)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.101 (pasteur8e-101)
+macAddress: 00:24:E8:3C:80:82
+uid: grp_gilson-spisano
+uidNumber: 802
+
+dn: cn=pasteur8e-102,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-102
+description: laptop Dell (A.Mendez/gendronneau)  EQ_Gilson | 134.59.51.102
+gecos: pasteur8e-102 (grp_gilson-amendez)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.102 (pasteur8e-102)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-amendez
+uidNumber: 803
+
+dn: cn=pasteur8e-103,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-103
+description: PC Dell  EQ_Gilson | 134.59.51.103
+gecos: pasteur8e-103 (grp_gilson-dbennaroch)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.103 (pasteur8e-103)
+macAddress: C4:54:44:6D:07:8B
+uid: grp_gilson-dbennaroch
+uidNumber: 806
+
+dn: cn=pasteur8e-124,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-124
+description: PC Dell  (A.Rouan) EQ_Gilson | 134.59.51.124
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.124 (pasteur8e-124)
+macAddress: 48:4D:7E:AE:1C:78
+uid: grp_gilson-arouan
+uidNumber: 805
+
+dn: cn=pasteur8e-128,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: ieee802Device
+objectClass: posixAccount
+objectClass: top
+cn: pasteur8e-128
+description: iMac (Marjorie Martin) EQ_Gilson | 134.59.51.128
+gecos: pasteur8e-128 (grp_gilson_mmartin)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.128 (pasteur8e-128)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-mfelix
+uidNumber: 812
+
+dn: cn=pasteur8e-131,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-131
+description: Macintosh fixe (C.Iltis) EQ_Gilson | 134.59.51.131
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.131 (pasteur8e-131)
+macAddress: c8:2a:14:2b:a2:70
+uid: grp_gilson-ciltis
+uidNumber: 802
+
+dn: cn=pasteur8e-132,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-132
+description: PC MAOUCHE EQ_Gilson | 134.59.51.132
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.132 (pasteur8e-132)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-maouche
+uidNumber: 803
+
+dn: cn=pasteur8e-133,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-133
+description: Mac Notebook (J.Cherfils) EQ_Gilson | 134.59.51.133
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.133 (pasteur8e-133)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-jcherfils
+uidNumber: 802
+
+dn: cn=pasteur8e-134,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-134
+description: PC portable DELL (M-J.Giraud-Panis) EQ_Gilson | 134.59.51.134
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.134 (pasteur8e-134)
+macAddress: 94:9a:a9:85:4d:9c
+uid: grp_gilson-mgiraud-panis
+uidNumber: 809
+
+dn: cn=pasteur8e-136,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-136
+description: LAPTOP DELL (M-J.Giraud-Panis) EQ Gilson
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.136 (pasteur8e-136)
+macAddress: 94:9A:A9:85:4D:9C
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur8e-138,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-138
+description: PC Biorad
+gecos: s-tag
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.138 (pasteur8e-138)
+macAddress: B8:AC:6F:B1:E1:2E
+uid: grp_shkreli-mshkreli
+uidNumber: 1701
+
+dn: cn=pasteur8e-144,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-144
+description: LAPTOP Dell (T.Hamidouche) EQ_Gilson | 134.59.51.144
+gecos: 1JSN2M1
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.144 (pasteur8e-144)
+macAddress: 5c:26:0a:38:55:c9
+uid: grp_gilson-amendez
+uidNumber: 803
+
+dn: cn=pasteur8e-145,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-145
+description: PC Axiovert-40 PLT PICMI
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.145 (pasteur8e-145)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur8e-146,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-146
+description: PC station (N.Djerbi) EQ Gilson (ancienne @mac 78:AC:C0:A5:D5:DA)
+gecos: pasteur8e-146 (PICMI-ndjerbi)
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.146 (pasteur8e-146)
+macAddress: D8:9E:F3:31:D6:E8
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur8e-149,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-149
+description: PC Dell (N.Djerbi/C.Ghilain) EQ Gilson
+gecos: s-tag
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.149 (pasteur8e-149)
+macAddress: 78:AC:C0:A5:D5:DA
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur8e-150,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-150
+description: PC Dell  EQ_Cristofari | 134.59.51.150
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.150 (pasteur8e-150)
+macAddress: 00:00:00:00:00:00
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-151,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-151
+description: PC Dell  EQ_Cristofari | 134.59.51.151
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.151 (pasteur8e-151)
+macAddress: D4:9A:20:E1:20:16
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-152,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-152
+description: Macintosh  EQ_Cristofari | 134.59.51.152
+gecos: pasteur8e-152 (grp_cristofari-gcristofari)
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.152 (pasteur8e-152)
+macAddress: D0:81:7A:DA:67:B9
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-153,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-153
+description: Macintosh EQ_Cristofari | 134.59.51.153
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.153 pasteur8e-153)
+macAddress: D4:9A:20:E1:16:7A
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-154,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-154
+description: Macintosh EQ_Cristofari | 134.59.51.154
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.154 (pasteur8e-154)
+macAddress: 78:7B:8A:C4:25:5D
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-155,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-155
+description: Macintosh EQ_Cristofari | 134.59.51.155
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.155 (pasteur8e-155)
+macAddress: 00:00:00:00:00:00
+uid: grp_cristofari-nigumann
+uidNumber: 302
+
+dn: cn=pasteur8e-156,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-156
+description: Macintosh EQ_Cristofari | 134.59.51.156
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.156 (pasteur8e-156)
+macAddress: C4:2C:03:1C:C5:29
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-157,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-157
+description: Macintosh EQ_Cristofari | 134.59.51.157
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.157 (pasteur8e-157)
+macAddress: 10:9A:DD:5C:7C:46
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-158,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-158
+description: Macintosh EQ_Cristofari | 134.59.51.158
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.158 (pasteur8e-158)
+macAddress: 98:10:E8:F1:13:DC
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-159,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-159
+description: Macintosh (A.Doucet) EQ_Cristofari | 134.59.51.159
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.159 (pasteur8e-159)
+macAddress: C4:2C:03:1A:9E:4D
+uid: grp_cristofari-adoucet
+uidNumber: 302
+
+dn: cn=pasteur8e-160,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-160
+description: Macintosh (C.Philippe) EQ_Cristofari | 134.59.51.160
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.160 (pasteur8e-160)
+macAddress: C4:2C:03:1A:9E:4D
+uid: grp_cristofari-cphilippe
+uidNumber: 303
+
+dn: cn=pasteur8e-161,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-161
+description: Macintosh (C.Philippe) EQ_Cristofari | 134.59.51.161
+gecos: s-tag
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.161 (pasteur8e-161)
+macAddress: 3C:07:54:2E:04:6A
+uid: grp_cristofari-cphilippe
+uidNumber: 303
+
+dn: cn=pasteur8e-162,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-162
+description: Macintosh EQ_Cristofari | 134.59.51.162
+gecos: pasteur8e-162 (grp_cristofari-gcristofari)
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.162 (pasteur8e-162)
+macAddress: D0:81:7A:D6:A0:80
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-163,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-163
+description: NAS EQ_Cristofari | 134.59.51.163
+gecos: pasteur8e-163
+gidNumber: 300
+homeDirectory: /
+host: 134.59.51.163 (pasteur8e-163)
+macAddress: 00:11:32:96:fe:cd
+uid: grp_cristofari-gcristofari
+uidNumber: 301
+
+dn: cn=pasteur8e-164,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-164
+description: laptop (J.Hallin) EQ Liti
+gecos: s-tag
+gidNumber: 1000
+homeDirectory: /
+host: 134.59.51.164 (pasteur8e-164)
+macAddress: 00:0E:C6:FA:8C:6D
+uid: grp_liti-gliti
+uidNumber: 1001
+
+dn: cn=pasteur8e-166,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-166
+description: Pc d analyse Nanoscope PLT PICMI
+gecos: s-tag
+gidNumber: 40000
+homeDirectory: /
+host: 134.59.51.166 (pasteur8e-166)
+macAddress: 00:00:00:00:00:00
+uid: PICMI-ndjerbi
+uidNumber: 40001
+
+dn: cn=pasteur8e-167,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-167
+description: PC Dell (Sol-Jacome) EQ_Gilson | 134.59.51.167
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.167 (pasteur8e-167)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-mjacome
+uidNumber: 810
+
+dn: cn=pasteur8e-169,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur8e-169
+description: PC (Louise Mangin) EQ_Gilson | 134.59.51.169
+gecos: s-tag
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.169 (pasteur8e-169)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-lmangin
+uidNumber: 811
+
+dn: cn=pasteur9e-115,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-115
+description: EQ_Croce | smart-UPS SRT 5000 type DLRT5KRMXLI (baie colossus) | 134.59.51.115
+gecos: apc25EC50 (sn: AS1934273219)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.115 (pasteur9e-115)
+macAddress: 28:29:86:25:EC:50
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur9e-133,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-133
+description: Macintosh EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.133 (pasteur9e-133)
+macAddress: 00:00:00:00:00:00
+uid: grp_saccani-dvanessen
+uidNumber: 1602
+
+dn: cn=pasteur9e-170,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-170
+description: Mac portable (G.Meneguzzi) EQ Gaggioli
+gecos: s-tag
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.170 (pasteur9e-170)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-gmeneguzzi
+uidNumber: 602
+
+dn: cn=pasteur9e-183,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-183
+description: laptop DELL (S.Saccani) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.183 (pasteur9e-183)
+macAddress: 98:5A:EB:CC:2D:1F
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-184,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-184
+description: laptop Macintosh (D.V-Essen) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.184 (pasteur9e-184)
+macAddress: 00:00:00:00:00:00
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-185,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-185
+description: Macintosh (LABO1) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.185 (pasteur9e-185)
+macAddress: 00:00:00:00:00:00
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-186,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-186
+description: Macintosh (LABO2) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.186 (pasteur9e-186)
+macAddress: 00:00:00:00:00:00
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-187,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-187
+description: Macintosh (LABO3) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.187 (pasteur9e-187)
+macAddress: A8:20:66:2F:6F:43
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-188,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-188
+description: Macintosh (LABO4) EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.188 (pasteur9e-188)
+macAddress: 0C:4D:E9:C8:F7:4F
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-189,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-189
+description: EMac EQ Saccani
+gecos: s-tag
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.189 (pasteur9e-189)
+macAddress: 00:00:00:00:00:00
+uid: grp_saccani-ssaccani
+uidNumber: 1601
+
+dn: cn=pasteur9e-224,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-224
+description: serveur DELL PowerEdge R720 wolverine.unice.fr
+gecos: wolverine.unice.fr (9eme)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.224 (pasteur9e-224)
+macAddress: c8:1f:66:d3:50:56
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur9e-247,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-247
+description: PC (E.Lecorgne) EQ Gaggioli
+gecos: dell
+gidNumber: 600
+homeDirectory: /
+host: 134.59.51.247 (pasteur9e-247)
+macAddress: 00:00:00:00:00:00
+uid: grp_gaggioli-elecorgne
+uidNumber: 606
+
+dn: cn=pasteur9e-248,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-248
+description: PC Dell Windows7 (N.Fedou) EQ Genet | 134.59.51.248
+gecos: pasteur9e-248 (grp_genet-nfedou)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.248 (pasteur9e-248)
+macAddress: 00:00:5A:74:EB:1F
+uid: grp_genet-nfedou
+uidNumber: 703
+
+dn: cn=pasteur9e-249,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-249
+description: PC Dell Windows7 (V.Barone) EQ_Genet | 134.59.51.249
+gecos: pasteur9e-249 (grp_genet-vbarone)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.249 (pasteur9e-249)
+macAddress: 48:4D:7E:C9:75:75
+uid: grp_genet-vbarone
+uidNumber: 702
+
+dn: cn=pasteur9e-252,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-252
+description: PC HP Windows7 (S.Renardias) EQ_Genet | 134.59.51.252
+gecos: pasteur9e-252 (grp_genet-srenardias;grp_genet-tboungo)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.252 (pasteur9e-252)
+macAddress: 6C:3B:E5:0B:7C:7B
+uid: grp_genet-tboungo;grp_genet-srenardias
+uidNumber: 704
+
+dn: cn=pasteur9e-253,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur9e-253
+description: PC Dell (N.Duhayon) EQ_Genet | 134.59.51.253
+gecos: pasteur9e-253 (grp_genet-nduhayon)
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.253 (pasteur9e-253)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-nduhayon
+uidNumber: 705
+
+dn: cn=pasteurRDC-39,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteurRDC-39
+description: EQ_Croce, SERVEUR DELL (web ircan)  | 134.59.51.39
+gecos: 73S9RG2
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.39 (pasteurRDC-39)
+macAddress: A0:36:9F:C4:C9:60
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=pasteurRDC-44,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteurRDC-44
+description: EQ_Croce, SERVEUR BAIE DE STOCKAGE MD1400 | 134.59.51.44
+gecos: BD0FSG2
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.44 (pasteurRDC-44)
+macAddress: 18:FB:7B:A5:9D:01
+uid: grp_croce-esimon
+uidNumber: 102
+
+dn: cn=pasteur10e-105,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-105
+description: Mac AirBook (V.Paquis) EQ Paquis
+gecos: pasteur10e-105 (grp_paquis-vpaquis)
+gidNumber: 1400
+homeDirectory: /
+host: 134.59.51.105 (pasteur10e-105)
+uid: grp_paquis-vpaquis
+uidNumber: 1401
+
+dn: cn=pasteur10e-106,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-106
+description: Macintosh (Mauri-Crouzet) EQ Paquis
+gecos: pasteur10e-106 (grp_paquis-vpaquis)
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.106 (pasteur10e-106)
+macAddress: D4:9A:20:01:8E:4A
+uid: grp_paquis-vpaquis
+uidNumber: 1301
+
+dn: cn=pasteur10e-107,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-107
+description: laptop Dell Win10 (E.Genin) EQ Paquis (d4:9a:20:01:8e:4a)
+gecos: pasteur10e-107 (grp_paquis-egenin)
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.107 (pasteur10e-107)
+macAddress: 1c:75:08:8a:3e:ca
+uid: grp_paquis-egenin
+uidNumber: 1304
+
+dn: cn=pasteur10e-108,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-108
+description: LAPTOP Win10 (E.Genin)  EQ Paquis
+gecos: s-tag
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.108 (pasteur10e-108)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-egenin
+uidNumber: 1304
+
+dn: cn=pasteur10e-109,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-109
+description: PC Dell (M.Felix) EQ Paquis
+gecos: pasteur10e-109 (grp_paquis-mfelix)
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.109 (pasteur10e-109)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-mfelix
+uidNumber: 1306
+
+dn: cn=pasteur10e-110,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-110
+description: PC (thesard B.Ropert/Berg) EQ Paquis
+gecos: s-tag
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.110 (pasteur10e-110)
+macAddress: 00:0E:C6:CD:70:71
+uid: grp_paquis-bropert
+uidNumber: 1303
+
+dn: cn=pasteur10e-111,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-111
+description: PC Dell EQ Paquis
+gecos: s-tag
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.111 (pasteur10e-111)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-amauricrouzet
+uidNumber: 1304
+
+dn: cn=pasteur10e-112,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-112
+description: Mac portable (F.Lespinasse) EQ Paquis
+gecos: pasteur10e-112 (grp_paquis-flespinasse)
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.112 (pasteur10e-112)
+macAddress: 00:E0:4C:36:03:1C
+uid: grp_paquis-flespinasse
+uidNumber: 1305
+
+dn: cn=pasteur10e-125,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-125
+description: PC Dell (M.Goncalvez) EQ Magnaldo
+gecos: s-tag
+gidNumber: 1100
+homeDirectory: /
+host: 134.59.51.125 (pasteur10e-125)
+macAddress: 00:00:00:00:00:00
+uid: grp_magnaldo-mgoncalves
+uidNumber: 1103
+
+dn: cn=pasteur10e-126,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-126
+description: Mac (Bruno Bastos) EQ_Paquis
+gecos: s-tag
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.126 (pasteur10e-126)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-bbastos
+uidNumber: 1303
+
+dn: cn=pasteur10e-127,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-127
+description: Pc (Nina Pirih) EQ_Paquis
+gecos: s-tag
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.127 (pasteur10e-127)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-bbastos
+uidNumber: 1304
+
+dn: cn=pasteur10e-148,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-148
+description: Macintosh (C-M. Vivier M2) EQ Shkreli
+gecos: pasteur10e-148 (grp_shkreli-cmvivier)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.148 (grp_shkreli-cmvivier)
+macAddress: 00:00:00:00:00:00
+uid: grp_shkreli-cmvivier
+uidNumber: 1703
+
+dn: cn=pasteur10e-172,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-172
+description: Mac fixe (S.Estrach) EQ Feral
+gecos: s-tag
+gidNumber: 400
+homeDirectory: /
+host: 134.59.51.172 (pasteur10e-172)
+macAddress: 0C:4D:E9:C5:B0:47
+uid: grp_feral-sestrach
+uidNumber: 404
+
+dn: cn=pasteur10e-173,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-173
+description: Mac fixe (E.Boulter) EQ Feral
+gecos: s-tag
+gidNumber: 400
+homeDirectory: /
+host: 134.59.51.173 (pasteur10e-173)
+macAddress: 0C:4D:E9:C7:D2:91
+uid: grp_feral-eboulter
+uidNumber: 402
+
+dn: cn=pasteur10e-174,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-174
+description: PC Dell (L.Cailleteau) EQ Feral
+gecos: s-tag
+gidNumber: 400
+homeDirectory: /
+host: 134.59.51.174 (pasteur10e-174)
+macAddress: 00:00:00:00:00:00
+uid: grp_feral-lcailleteau
+uidNumber: 403
+
+dn: cn=pasteur10e-175,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-175
+description: PC Dell (C.Pons) EQ Feral
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.175 (pasteur10e-175)
+macAddress: 00:22:19:2C:15:82
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur10e-176,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-176
+description: LAPTOP MAC labscan EQ Paquis
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.176 (pasteur10e-176)
+macAddress: C8:2A:14:37:7C:81
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur10e-177,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-177
+description: laptop Macintosh (Charlesworth) EQ Paquis
+gecos: s-tag
+gidNumber: 1300
+homeDirectory: /
+host: 134.59.51.177 (pasteur10e-177)
+macAddress: 00:00:00:00:00:00
+uid: grp_paquis-acharlesworth
+uidNumber: 1302
+
+dn: cn=pasteur10e-178,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-178
+description: PC (Charlesworth) EQ Paquis
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.178 (pasteur10e-178)
+macAddress: 00:00:00:00:00:00
+uid: esimon
+uidNumber: 101
+
+dn: cn=pasteur10e-179,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-179
+description: laptop PC (C.Feral) EQ Feral
+gecos: s-tag
+gidNumber: 400
+homeDirectory: /
+host: 134.59.51.179 (pasteur10e-179)
+macAddress: 00:00:00:00:00:00
+uid: grp_feral-cferal
+uidNumber: 401
+
+dn: cn=pasteur10e-230,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-230
+description: Macintosh (Master) EQ Shkreli
+gecos: pasteur10e-230 (grp_shkreli-mshkreli)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.230 (pasteur10e-230)
+macAddress: A8:20:66:34:EB:FF
+uid: grp_shkreli-mshkreli
+uidNumber: 1701
+
+dn: cn=pasteur10e-231,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-231
+description: Macintosh (Vial) EQ Shkreli
+gecos: pasteur10e-231 (grp_shkreli-mshkreli)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.231 (pasteur10e-231)
+macAddress: A8:20:66:20:1A:CD
+uid: grp_shkreli-mshkreli
+uidNumber: 1701
+
+dn: cn=pasteur10e-233,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-233
+description: Macintosh (M.Montandon) EQ Shkreli
+gecos: pasteur10e-233 (grp_shkreli-mmontandon)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.233 (grp_shkreli-mmontandon)
+macAddress: 3C:07:54:22:29:45
+uid: grp_shkreli-mmontandon
+uidNumber: 1703
+
+dn: cn=pasteur10e-235,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-235
+description: PC Dell (MSLab1) EQ Shkreli
+gecos: pasteur10e-235 (grp_shkreli-cpons)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.235 (pasteur10e-235)
+macAddress: F8:B1:56:DB:AF:97
+uid: grp_shkreli-cpons
+uidNumber: 1702
+
+dn: cn=pasteur10e-236,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-236
+description: PC Dell (MSLab2) EQ Shkreli
+gecos: pasteur10e-236 (grp_shkreli-cpons)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.236 (pasteur10e-236)
+macAddress: 00:0A:F7:2D:03:4E
+uid: grp_shkreli-cpons
+uidNumber: 1702
+
+dn: cn=pasteur10e-237,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur10e-237
+description: Macintosh EQ Shkreli
+gecos: pasteur10e-237 (grp_shkreli-mshkreli)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.237 (pasteur10e-237)
+macAddress: 10:DD:B1:B5:51:E9
+uid: grp_shkreli-mshkreli
+uidNumber: 1701
+
+dn: cn=pasteur13e-244,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur13e-244
+description: PC Dell EQ Shkreli
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.56.244 (pasteur13e-244)
+uid: grp_rottinger-mmaret
+uidNumber: 1504
+
+dn: cn=pasteur13e-246,ou=machines,dc=example,dc=org
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteur13e-246
+description: PC Dell EQ Shkreli
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.56.246 (pasteur13e-246)
+uid: grp_rottinger-aerrante
+uidNumber: 1503
+
+dn: cn=pasteurRDC-200,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteurRDC-200
+description: EQ_Croce, SERVEUR DELL (PROFESSORX) | 134.59.51.200
+gecos: 60HBB5J
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.200 (pasteurRDC-200)
+macAddress: D4:AE:52:7F:CD:BC
+uid: grp_croce-bmeyer
+uidNumber: 102
+
+dn: cn=pasteurRDC-254,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: pasteurRDC-254
+description: routeur CISCO (passerelle) gw-51.unice.fr
+gecos: Cisco_87:fc:26; pasteurRDC-254 (DSI)
+gidNumber: 20000
+homeDirectory: /
+host: 134.59.51.254 (pasteurRDC-254)
+macAddress: 88:5a:92:87:fc:26
+uid: DSI
+uidNumber: 101
+
+dn: cn=lp-pasteur5e-56,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-56
+description: EQ_Croce, imprimante Lexmark cs310dn | 134.59.51.56
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.56 (lp-pasteur5e-56)
+macAddress: 00:21:B7:1B:02:AF
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-pasteur8e-93,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur8e-93
+description: imprimante HP couleur (lp-lbpg07) EQ Gilson
+gecos: lp-pasteur8e-93 (lp-pasteur8e-93)
+gidNumber: 800
+homeDirectory: /
+host: 134.59.51.93 (lp-pasteur8e-93)
+macAddress: 00:00:00:00:00:00
+uid: grp_gilson-jrobin
+uidNumber: 807
+
+dn: cn=lp-pasteur9e-66,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur9e-66
+description: imprimante Ricoh EQ Genet
+gecos: lp-pasteur9e-66
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.66 (lp-pasteur9e-66)
+macAddress: 00:26:73:55:ec:2a
+uid: grp_genet-lgenet
+uidNumber: 701
+
+dn: cn=lp-pasteur9e-76,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur9e-76
+description: imprimante Lexus544 EQ Genet | 134.59.51.76
+gecos:: cy10YWcg
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.76 (lp-pasteur9e-76)
+macAddress: 00:21:b7:d2:ed:fd
+uid: grp_genet-nduhayon
+uidNumber: 705
+
+dn: cn=lp-pasteur9e-90,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur9e-90
+description: imprimante Ricoh EQ_Genet | 134.59.51.90
+gecos: lp-pasteur9e-90
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.90
+macAddress: 58:38:79:08:d6:ff
+uid: grp_genet-lgenet
+uidNumber: 701
+
+dn: cn=frigo61.unice.fr,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: frigo61.unice.fr
+description: frigo (S.Scarzello) EQ_Genet | 134.59.51.61
+gecos: s-tag
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.61 (frigo61.unice.fr)
+macAddress: 00:50:C2:7C:5A:36
+uid: grp_genet_sscarzello
+uidNumber: 707
+
+dn: cn=lp-pasteur5e-118,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-118
+description: imprimante Lexmark CS510de lp-lbpg118 (C.Gillardo) EQ_Genet
+gecos: ET0021B76BF396
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.118 (lp-pasteur5e-118)
+macAddress: 00:21:B7:6B:F3:96
+uid: esimon
+uidNumber: 101
+
+dn: cn=lp-pasteur5e-120,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-120
+description: scanner OKI-MC363-E18608 lp-lbpg120 (C.Gillardo) EQ_Genet
+gecos: AK87037703
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.120 (lp-pasteur5e-120)
+macAddress: 00:25:36:E1:86:08
+uid: grp_genet-cgillardo
+uidNumber: 708
+
+dn: cn=lp-pasteur5e-140,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-140
+description: PLT_GenoMed, imprimante Brother HL-8250CDN
+gecos: lp-pasteur5e-140 (GenoMed-cbaudoin)
+gidNumber: 10000
+homeDirectory: /
+host: 134.59.51.140 (lp-pasteur5e-140)
+macAddress: 30:05:5C:A0:19:AC
+uid: GenoMed-cbaudoin
+uidNumber: 10001
+
+dn: cn=lp-pasteur5e-220,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-220
+description: EQ_Croce, imprimante LEXMARK CX510DE (O.Croce) | 134.59.51.220
+gecos: ET0021B77981CA;lp-pasteur5e-220 (grp_croce-ocroce)
+gidNumber: 100
+homeDirectory: /
+host: 134.59.51.220 (lp-pasteur5e-220)
+macAddress: 00:21:B7:79:81:CA
+uid: grp_croce-ocroce
+uidNumber: 101
+
+dn: cn=lp-pasteur5e-226,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-226
+description: imprimante HPColorlaserjet CP1515n PLT CytoMed (ancienne @mac 00:9C:02:07:AD:DB)
+gecos: lp-pasteur5e-226 (grp_saccani-lcervera)
+gidNumber: 1600
+homeDirectory: /
+host: 134.59.51.226 (lp-pasteur5e-226)
+macAddress: 00:1F:29:2F:09:82
+uid: grp_saccani-lcervera
+uidNumber: 1602
+
+dn: cn=lp-pasteur5e-242,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur5e-242
+description: imprimante RICOH MP C3004 EQ_Genet | 134.59.51.242
+gecos: RNP002673C0991E
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.242 (lp-pasteur5e-242)
+macAddress: 00:26:73:C0:99:1E
+uid: grp_genet-lgenet
+uidNumber: 701
+
+dn: cn=lp-pasteur7e-192,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur7e-192
+description:: RVFfRmVycmVpcmEsIGltcHJpbWFudGUgSFAg
+gecos: s-tag
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.192 (lp-pasteur7e-192)
+macAddress: 00:00:00:00:00:00
+uid: grp_ferreira-melmai
+uidNumber: 503
+
+dn: cn=lp-pasteur7e-196,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur7e-196
+description: EQ_Rottinger, imprimante DELL (B2360dn LaserPrinter 6KBMSS1)
+gecos: ET0021B7E65975
+gidNumber: 1500
+homeDirectory: /
+host: 134.59.51.196 (lp-pasteur7e-196)
+macAddress: 00:21:B7:E6:59:75
+uid: grp_rottinger-erottinger
+uidNumber: 1501
+
+dn: cn=lp-pasteur10e-234,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: lp-pasteur10e-234
+description: imprimante HP EQ_Shkreli  | 134.59.51.234
+gecos: lp-pasteur10e-234 (grp_shkreli-mshkreli)
+gidNumber: 1700
+homeDirectory: /
+host: 134.59.51.234  (lp-pasteur10e-234)
+macAddress: FC:15:B4:2F:B2:F1
+uid: grp_shkreli-mshkreli
+uidNumber: 1701
+
+dn: cn=congel232.unice.fr,ou=machines,dc=example,dc=org
+objectClass: ieee802Device
+objectClass: account
+objectClass: top
+objectClass: posixAccount
+cn: congel232.unice.fr
+description: congelateur Promega EQ_Genet | 134.59.51.232
+gecos: s-tag
+gidNumber: 700
+homeDirectory: /
+host: 134.59.51.232 (congel232.unice.fr)
+macAddress: 00:00:00:00:00:00
+uid: grp_genet-sscarzello
+uidNumber: 703
+
