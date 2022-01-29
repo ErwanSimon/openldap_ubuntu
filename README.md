@@ -88,7 +88,7 @@ root@fb62fb6405bc:/test#
 On va ici utiliser créer conteneur docker avec une image Ubuntu destinée à recevoir les fichiers de configurations d'openLDAP. Il est nécessaire pour cela de créer les deux répertoires suivants : 
 
 - /var/lib/ldap : répertoire système pour accueillir des librairies (exécutables) spécifiques (ex: \_*db.004, \_*db.001) et la base de donnée LDAP au format binaire (objectClass.bdb)
-- /etc/ldap/slapd.d : répertoire destiné à accueillir le fichier texte de configuration slapd.conf
+- /etc/ldap/slapd.d : répertoire destiné à accueillir les fichiers texte de configuration slapd.conf et schema.conf
 ### **Création du fichier Dockerfile**
 Il faut tout d'abord indiquer dans le fichier DockerFile l'origine de l'image récupérée dans la base de conteneurs externes, grâce à l'instruction FROM comme ceci :
 
