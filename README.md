@@ -148,7 +148,7 @@ Successfully tagged osixia/openldap:1.5.0
 
 # Création d'image Ubuntu avec Volumes montés contenant la B.D.D et les fichiers de config OpenLDAP
 
-On va repartir ici de notre image Ubuntu créée à partir du fichier Dockerfile défini dans le document http://arn16s.ovh/dockerfile_volume.html
+On va repartir ici de notre image Ubuntu créée à partir du fichier Dockerfile défini précédemment (cf paragraphe (2)).
 L'idée est de "peupler" les répertoires indispensables à OpenLDAP, c.à.d le répertoire contenant la base de donnée et celui contenant le ou les fichiers de configuration. 
 
 ## Création des répertoires de stockage locaux
