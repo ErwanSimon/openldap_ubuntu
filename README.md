@@ -7,7 +7,7 @@ Les fichiers de configuration du serveur LDAP devront mettre en evidence la base
 # Introduction à Docker (1)
 
 # **Création de dockerfile pour la gestion de volume persistant**
-On va créer un Dockerfile pour créer une image Linux Alpine permettant de stocker de **manière permanente** des données (ex: un fichier au format OpenLDAP .LDIF)
+On va créer un Dockerfile pour créer une image Linux Ubuntu permettant de stocker de **manière permanente** des données (ex: un fichier au format OpenLDAP .LDIF)
 ## **Exemple en ligne de commande**
 1. On va tout d'abord créer le volume de données à l'aide de la commande dédiée *docker volume* comme ceci:
 
