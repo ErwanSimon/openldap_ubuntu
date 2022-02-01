@@ -15,7 +15,7 @@ $ docker volume create test
 
 1. Une fois le volume créé, on va le lier aux répertoires sources et destinations *test*
 
-$ docker run -ti -v test:/test alpine:3.4 sh
+$ docker run -ti -v test:/test ubuntu:16.04 sh
 
 La commande précédente créée un volume permanent “test” sur l'hôte (c.à.d le serveur) mais également dans le conteneur, au niveau de la racine, sous le répertoire test. Ce montage par défaut n'est pas satisfaisant lorsqu'on souhaite faire correspondre les données persistantes à une arborescence normalisée d'accueil de fichiers de configuration et de données d'un annuaire LDAP.
 ## **Point de montage du Volume de données**
