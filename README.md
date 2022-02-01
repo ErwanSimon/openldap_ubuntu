@@ -21,7 +21,7 @@ La commande précédente créée un volume permanent “test” sur l'hôte (c.�
 ## **Point de montage du Volume de données**
 Par défaut, le volume est monté par docker sous le répertoire */var/lib/docker/volumes/test*. Afin de permettre le montage du volume à l'emplacement prévu pour accueillir la base de donnée openLDAP, on va pouvoir spécifier à docker des options de montage. C'est ce que permet l'option -o comme sur la ligne de commande suivante:
 
-$ docker run -ti -v test:/test -o bind=o -o device=/mnt/openldapDB -o type=none alpine:3.4 sh
+$ docker run -ti -v test:/test -o bind=o -o device=/mnt/openldapDB -o type=none ubuntu:16.04 sh
 ## **Création du fichier Dockerfile normalisé**
 L'édition d'un fichier dockerfile (nommé **Dockerfile**) suit une syntaxe normalisée avec différents champs comme ceci:
 
