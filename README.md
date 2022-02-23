@@ -185,7 +185,81 @@ On peut utiliser la commande COPY dans le Dockerfile pour créer un conteneur qu
 # Conclusion (provisoire)
 
 Afin d'enregistrer de manière persistante, c'est à dire même après arrêt ou suppression du conteneur Osixia, il faut impérativement et à minima appeler la fonction d'exécution du conteneur Osixia avec le volume où est stockée la base de donnée au format .bdb, c'est à dire dans le répertoire /etc/ldap/slapd.d du conteneur.  
+
+
+# fichiers de configuration Docker pour l'image ParcInfo (/ersi0571/ParcInfo)
+
+définition du fichier de configuration du conteneur de Parc Informatique
+## docker-compose.yaml
+
+ldap:
+	container_name: osixiaOpenLdap
+	image: osixia/openldap:1.1.10
+	ports:
+	- "389:389"
+	- "636:636"
+	- "6443:443"
+	- "6080:80"
+	
+	env_files:
+	- ./ldap.env
+	
+	volumes:
+	- ./data/slapd/config:/etc/ldap/slapd.d
+	- ./data/slapd/database:/var/lib/ldap
+	
+
+## fichier ldap.env
+LDAP_DOMAIN="osixia.net"
+LDAP_ORGANISATION="osixia.net"
+LDAP_BASE_DN=osixia.net
+
+PHPLDAPADMIN_LDAP_HOSTS= ldap_host
+
+## remarque(s)
+
+* image2: osixia/phpldapadmin:0.7.2 -> on pourrait utiliser un nouveau fichier Yaml?
+* attention, dans la version el nligne de commande de docker-compose, le champ "env_files" n'est pas supporté ! Les variables d'environnement doivent être passées dans le fichier renommé docker-compose.yaml (et non environment.yaml spécifique à l'environnement virtuel de python venv)
+* il est préférable d'éditer le fichier yaml avec vim qui affiche en différentes couleurs les champs, cela permet une vérification syntaxique visuelle
+
+## résultat du build (génération du conteneur)
+
+la génération du conteneur se fait à l'aide de la commande suivante:
+> sudo docker-compose up
+> 
+ERROR: for ldap  Cannot create container for service ldap: invalid mode: /etc/ldap/slapd.d
+ERROR: Encountered errors while bringing up the project.
+
+## modification des volumes à monter pour générer un build fonctionnel
+
+Il faut tout d'abord vérifier qu'aucun conteneur n'utilise déjà le port ldap et si c'est le cas, préalablement arrêter le conteneur local l'utilisant
+
+> $ docker images list --all
+
+> $ docker images 
+> osixia/openldap              1.1.10    37f5729b73ed   4 years ago     185MB
+> quantumobject/docker-cacti   latest    427dcc97e835   12 months ago   1.42GB
+
+> $ docker ps
+Ici, si un conteneur est listé, on peut l'arrêter avec docker stop Conteneur_ID.
+
+Dans notre cas, c'est le service OpenLDAP "slapd" qui utilise déjà le port 389, on peut le vérifier en entrant la commande suivante :
+
+> $ systemctl status slapd
+
+Le service slapd étant chargé en mémoire et actif, il convient de l'arrêter ainsi:
+
+> $ systemctl stop slapd
+
  
+On va pouvoir à présent générer le conteneur ldap en montant un volume simple de test nommé "test", avec la modification suivante du fichier docker-compose.yaml :
+
+> 	volumes:
+> 	- ./test:/test
+> 
+Il suffit alors de rentrer à nouveau la commande "docker-compose up" pour créer le conteneur...
+
+
 
 
 
