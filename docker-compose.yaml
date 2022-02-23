@@ -1,0 +1,12 @@
+ldap:
+    container_name: osixiaOpenLdap
+    image: osixia/openldap:1.1.10
+    ports:
+    - "389:389"
+    - "636:636"
+
+    volumes:
+    - ./ldap.env
+
+    volumes:
+    - ./test:/test
