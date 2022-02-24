@@ -186,7 +186,6 @@ On peut utiliser la commande COPY dans le Dockerfile pour créer un conteneur qu
 
 Afin d'enregistrer de manière persistante, c'est à dire même après arrêt ou suppression du conteneur Osixia, il faut impérativement et à minima appeler la fonction d'exécution du conteneur Osixia avec le volume où est stockée la base de donnée au format .bdb, c'est à dire dans le répertoire /etc/ldap/slapd.d du conteneur.  
 
-
 # fichiers de configuration Docker pour l'image ParcInfo (/ersi0571/ParcInfo)
 
 définition du fichier de configuration du conteneur de Parc Informatique
@@ -259,10 +258,34 @@ On va pouvoir à présent générer le conteneur ldap en montant un volume simpl
 > 
 Il suffit alors de rentrer à nouveau la commande "docker-compose up" pour créer le conteneur...
 
+## Vérification du fonctionnement du conteneur OsixiaOpenLdap
+
+Pour vérifier le bon fonctionnement du conteneur, on peut entrer la commande suivante :
+
+$ sudo docker ps
+CONTAINER ID   IMAGE                    COMMAND                 CREATED        STATUS          PORTS                                                                          NAMES
+d0fce5a51e47   osixia/openldap:1.1.10   "/container/tool/run"   19 hours ago   Up 22 minutes   0.0.0.0:389->389/tcp, :::389->389/tcp, 0.0.0.0:636->636/tcp, :::636->636/tcp   osixiaOpenLdap
+
+Il est alors possible d'ouvrir un éditeur LDAP tel que Jxplorer en spécifiant pour DN (Distinguished Name) la valeur cn=admin, dc=example,dc=org. A titre indicatif, la dernière version d'Osixia OpenLDAP (1.5.0 à ce jour) utilise un DN différent par défaut (DN: cn=admin,dc=osixia,dc=net), nous avons bien spécifié dans le fichier docker-compose.yaml d'utiliser le tag de version 1.1.10 qui utilise une base de donnée de type HDB au lieu du type MDB (v 1.5.0)
 
 
+### Vérification de la sauvegarde de la base LDAP OsixiaOpenLDAP
 
 
+On arrête le conteneur OsixiaOpenLDAP afin de s'assurer qu'après un démarrage, les entrées chargées n'ont pas été effacées. 
+> $ docker stop OsixiaOpenLDAP
 
-mots-clés: #openldap, #sambaSID, #ubuntu-virt, #qemu-system-x86_64
+Il n'est alors plus possible de se connecter au conteneur via l'éditeur Jxplorer qui refuse la connexion.
 
+Après redémarrage du conteneur, on s'assure que le contenu de la base de donnée est toujours présent, ce qui est normalement le cas puisqu'elle a été sauvegardée dans le volume "test" monté entre le conteneur et l'hôte.
+
+Une dernière vérification consiste à supprimer le conteneur puis de le recréer à partir du fichier docker-compose.yaml. On vérifiera de la même manière que les données n'ont pas disparues. C'est ce que propose la section de code suivante :
+
+> $ docker rm OsixiaOpenLDAP 
+> 
+> $ docker-compose up
+
+Le résultat n'est pas celui attendu, la base de donnée a été supprimée, il y a donc eu un problème de "mapping" au niveau des volumes. Il va donc falloir reprendre la correspondance entre le volume de base de donnée côté serveur et le répertoire contenant les fichiers de configuration LDAP afin de les associer à deux répertoires côté hôte.
+
+## Conclusion 
+Il n'est à l'heure actuelle pas possible de remplacer la création du conteneur OpenLDAP Osixia via ligne de commande par un fichier docker-compose équivalent en raison de l'échec de la persistance des données.
