@@ -1,12 +1,56 @@
-ldap:
-    container_name: osixiaOpenLdap
+version: '2'
+
+services:
+  ldap_service:
     image: osixia/openldap:1.1.10
+    container_name: ldap-service
+    environment:
+     - LDAP_ORGANISATION="osixia.net" 
+     - LDAP_DOMAIN="osixia.net"
+     - LDAP_HOST="unice.fr"
+     - TZ=Europe/Paris # meme si ce n'est pas utilise par le service, c'est toujours interessant de le preciser
+    volumes:
+#    - db-data:/var/lib/ldap
+    - db_data:/var/lib/ldap
+#    - db-config:/etc/ldap/slapd.d
+  
+    network_mode: host
+#    restart: unless-stopped
+    restart: always
     ports:
-    - "389:389"
-    - "636:636"
+      - "389:389"
+      - "636:636"
 
-    volumes:
-    - ./ldap.env
 
-    volumes:
-    - ./test:/test
+
+  phpldapadmin:
+#    - depends_on: ldap-service
+    image: osixia/phpldapadmin:0.7.2
+    container_name: phpldapadmin_service
+    restart: always
+    environment:
+      - PHPLDAPADMIN_LDAP_HOSTS=ldap-host
+    #  - PGID=100  # Enter the GID of the user who should own the files here
+    
+#    volumes:
+#      - /var/alpine
+#      - /alpine
+      # Uncomment the next line if you want to bind-mount the www-folder
+      #- /path/to/wwwfolder:/usr/share/alpine
+    #network_mode: "host"
+    ports:
+      - "6443:443"
+      - "6080:80"
+
+
+    # Activate the following two lines for BTRFS support
+    #cap_add:
+    #  - SYS_ADMIN   
+
+# declarations des volumes utilises par les services (multi-conteneurs)
+volumes:
+#  volume_with_label:
+#    labels:
+#      - "label_key=label_val"
+#  db_config:  
+    db_data:
