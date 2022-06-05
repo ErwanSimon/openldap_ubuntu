@@ -11,7 +11,7 @@ services:
      - TZ=Europe/Paris # meme si ce n'est pas utilise par le service, c'est toujours interessant de le preciser
     volumes:
     - db_data:/var/lib/ldap
-    - db_config:/etc/ldap/slapd.d
+    - db_config:/etc/ldap
   
     network_mode: host
 #    restart: unless-stopped
